@@ -3537,6 +3537,478 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="pts" typeId="51b2-306e-1021-d207" value="240"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chaos Rhino" hidden="false" id="8ae1-aa47-e1d1-1b31" collective="false">
+      <constraints>
+        <constraint type="max" value="6" field="selections" scope="force" shared="true" id="0688-d4c0-921b-481a" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Chaos Rhino" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b909-211b-2a4a-833b">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="629b-52e7-f21d-1c5f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chaos Rhino" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="1ad0-2bd0-ba02-0db9">
+          <characteristics>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 DEATH GUARD INFANTRY models. It cannot transport TERMINATOR models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="8c2e-453f-6e71-d26f" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="aca9-337d-028b-9d06" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+        <infoLink name="Firing Deck" id="dc34-88c7-b5a6-e585" hidden="false" type="rule" targetId="13b2-6518-dab3-7ea1">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="9fed-9a10-f96a-8b9f" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="ac65-6c6b-9f41-f0c8" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Dedicated Transport" hidden="false" id="93dc-0217-1985-7efe" targetId="ba07-411c-2832-1f79" primary="true"/>
+        <categoryLink name="Chaos" hidden="false" id="959c-809c-92f8-971c" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Rhino" hidden="false" id="b25e-84d7-2c36-0a99" targetId="43d3-aab8-f264-70da" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="e987-9f56-c91c-0130" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="75a4-9bfd-6100-16ae" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="6ef0-3ff9-a298-0542" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Additional Weapons" id="8a8a-e8d1-b0c7-1d33" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fbd-faae-f1c5-0b46" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="1 additional combi-bolter" hidden="false" id="2422-11aa-4998-1d39" collective="false">
+              <profiles>
+                <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5ec6-92a4-407a-f5a9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="7675-08b8-947b-9188" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                <infoLink name="Rapid Fire" id="7b7d-e82a-95c0-4114" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="1 combi-weapon" hidden="false" id="f695-9924-d71a-de25" collective="false">
+              <profiles>
+                <profile name="Combi-weapon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c2e7-7533-b572-eadb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="cdbc-6289-e2fc-df1a" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                <infoLink name="Rapid Fire" id="3529-ba3b-2232-0c34" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                <infoLink name="Devastating Wounds" id="17d5-c094-5f0b-c132" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Havoc Launcher Options" id="9d69-3568-9c0a-4a77" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c3b-fd9a-4b78-71dd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="1 havoc launcher" hidden="false" id="adb9-dbb1-e252-4c7e" collective="false">
+              <profiles>
+                <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2d43-1a06-65e0-2fc4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" id="2fde-9071-9e0b-7e87" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="cbe3-34f5-707a-a2ab" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c7d4-4946-281c-88c1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e31a-4f9c-adf8-1a72" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3afa-67b9-d51e-f1e4">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="bcc2-5a3a-3145-5fd1" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+            <infoLink name="Rapid Fire" id="654d-5987-3be1-2c6a" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="661a-207c-a66d-8da0" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f937-581c-e390-aef0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df4c-0dbd-696f-d441" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="96b0-3354-e153-1f04">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chaos Spawn" hidden="false" id="dfd8-62cb-fd5a-52e1" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="32df-c762-0fb9-d8d6" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Chaos Spawn" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ca06-cd66-e0ea-a4fa">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lethal Ichor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e6a3-e8c7-8a7d-5ea5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a melee attack is allocated to a model in this unit, after the attacking unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit); for each 4+, the attacking unit suffers 1 mortal wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="e18b-5a7e-d9fd-1c88" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="1" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Feel No Pain" id="6ad4-71e1-2a0a-3a7a" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Scouts" id="5ce2-d7ac-2e34-a6d3" hidden="false" targetId="ada6-bac1-ffe0-d6f7" type="rule">
+          <modifiers>
+            <modifier type="append" value="6&quot;" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="8d9d-0c37-df90-0f55" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="f3a3-8b3d-f7e4-56e4" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Beast" hidden="false" id="9c8a-cd78-0a85-6ff7" targetId="4c3e-9310-a516-3590" primary="true"/>
+        <categoryLink name="Chaos" hidden="false" id="1301-fc4e-bb03-ed4c" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="3c59-e2e1-d06c-8af1" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Chaos Spawn" hidden="false" id="1d7a-8b1a-63f8-3c0c" targetId="e210-38b5-7634-516b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chaos Spawn" hidden="false" id="c28e-4ef4-57b7-9c0f" collective="false">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="76b9-3d2a-c7a5-3dd0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0775-7d17-f26c-d3cb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hideous mutations" hidden="false" id="1c76-bacc-c02a-4ccc" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a30c-80ca-0fb7-1087" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a40-9b63-a72b-f0f5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hideous mutations" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="0082-c8d4-1f2c-83dd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6+2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Myphitic Blight-haulers" hidden="false" id="a462-453c-f7db-2e6c" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="ebd6-e08c-cf2a-ae14" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Myphitic Blight-hauler" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7cbe-c8fc-8c6f-e46c">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af10-b432-efad-fa17">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tank Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b46c-cee4-2cce-12f3">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="bf4f-4c76-5a03-2548" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="b9c0-f6c5-32c7-ca13" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="ffcd-5df0-0f4f-7bbe" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="ded5-e3ad-fa5b-5c85" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="6fae-cfd8-dd6e-fe12" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="0a3c-c72d-37d5-e3d4" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="2e4c-34ce-5e88-c347" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="6c3c-1dbc-6a47-3ec0" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Myphitic Blight-haulers" hidden="false" id="52f3-f13e-9f46-b5b1" targetId="cef-8477-ba87-91dc" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Myphitic Blight-hauler" hidden="false" id="0204-cbf3-ca5c-c0eb" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41a9-5519-cab5-1a56" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d1cd-8f25-6ac3-95f1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bile spurt" hidden="false" id="8a8a-8a25-e4d2-09cc" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1249-30ac-3ca6-7eae" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c80-62dd-fe91-c2a5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Bile spurt" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0b44-5c42-00a0-de2d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="e68a-41f3-a94c-5e1e" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Missile launcher - frag" hidden="false" id="5c42-9dd2-d50d-6591" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ecc-8a2d-9df0-a551" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f26-eadf-34fd-99e7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Missile launcher - frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="48bc-99b7-c6fb-7d4c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" id="04f9-f69b-b0d4-5dc7" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Missile launcher - krak" hidden="false" id="0a1a-3be4-4a97-7bd8" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d10-cfa8-6e02-0e91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f91-c252-c736-8fd9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Missile launcher - krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="bb8d-c0ac-1ee1-a389">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="2694-9bfc-e04b-afda" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84c5-e43a-3aa2-46d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9982-0e50-5d18-9ec1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Multi-melta" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7cb3-ec38-dbb9-0dd9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Melta" id="1f7e-6b79-c59d-bc91" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                <infoLink name="Lethal Hits" id="fa33-dc3a-3a75-12d3" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gnashing maw" hidden="false" id="3b04-cc55-8b82-5b47" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f90-f42c-30c4-0d04" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ea0-1c5b-1cbc-2f72" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Gnashing maw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c3be-1e1e-e77e-5fb2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="6e59-2d0e-3c6b-18be" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="225" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="2" field="selections" scope="a462-453c-f7db-2e6c" childId="model" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Nurgle&apos;s Gift (Aura)" id="fb44-7c0e-d9cb-5b88" hidden="false">
