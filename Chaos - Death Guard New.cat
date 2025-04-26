@@ -4003,7 +4003,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </modifier>
       </modifiers>
     </selectionEntry>
-
     <selectionEntry id="8467-b3a2-2597-de0d" name="Plague Marines" page="25-26" hidden="false" collective="false" import="true" type="unit" publicationId="6bb4-8611-986f-58fa">
       <modifiers>
         <modifier type="set" field="51b2-306e-1021-d207" value="125">
@@ -4080,7 +4079,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb47-89a0-8e80-1be9" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="e053-51df-dbe4-9357" name="Plague bolt pistol" hidden="false" collective="false" import="true" targetId="cb66-ea67-29a2-316d" type="selectionEntry"/>
                     <entryLink id="6a79-b180-bcbb-1f69" name="Plague boltgun" hidden="false" collective="false" import="true" targetId="c812-9617-11b3-b804" type="selectionEntry"/>
                     <entryLink id="b796-6aab-99e7-df31" name="Plasma gun" hidden="false" collective="false" import="true" targetId="25d0-1f29-3f1f-230b" type="selectionEntry"/>
                     <entryLink id="248e-3185-dd-d1ed" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="18aa-edc7-646c-296" type="selectionEntry"/>
@@ -4462,7 +4460,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b60-50a2-286-22b6"/>
       </constraints>
     </selectionEntry>
-
     <selectionEntry id="2a2b-643e-860e-b524" name="Death Guard Helbrute" hidden="false" collective="false" import="true" type="model" publicationId="6bb4-8611-986f-58fa" page="45-46">
       <constraints>
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fba2-a1e0-bf62-d804" type="max"/>
@@ -4470,7 +4467,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
       <profiles>
         <profile name="Helbrute" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="16d0-afe3-a15d-6968">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7"</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
@@ -4490,14 +4487,12 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="fa37-65b1-b282-a05f" name="Nurgle&apos;s Gift (Aura)" hidden="false" targetId="ea42-7d15-fd81-73d6" type="rule"/>
+        <infoLink name="Nurgle&apos;s Gift (Aura)" id="b9c0-f6c5-32c7-ca13" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
         <infoLink id="26a8-eb87-60c3-178d" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Spread the Sickness" hidden="false" type="rule" id="11eb-28ec-bde1-7b18" targetId="d2e3-6a22-845c-9340"/>
-        <infoLink name="Verminous Haze" id="a199-a963-2f8b-1e9e" hidden="false" type="rule" targetId="adba-7d95-8104-80d2"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9888-ddb2-a141-6037" id="fd53-b22e-9651-9ee8" primary="false" name="Faction: Death Guard"/>
@@ -4712,6 +4707,108 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry id="cffb-c7ec-17f8-7d3e" name="Twin plague heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7ad0-2c20-b5f6-e5ed" name="Twin plague heavy bolter" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Sustained Hits 1, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d902-6d31-464-b271" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+        <infoLink id="6d6d-70e4-5687-b720" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+        <infoLink name="Lethal Hits" hidden="false" type="rule" id="dd97-33ba-47c2-63cb" targetId="d1d1-611e-5191-1095"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e035-1bfa-6389-c0c5" name="Twin lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e0c2-8978-cab-e401" name="Twin lascannon" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1c3a-d56c-af56-416" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c40e-8460-f2e8-6977" name="Helbrute fist" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6b-c22c-672e-7f54" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="451d-a83d-7a1c-5400" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ac53-d829-818e-ca15" name="Helbrute fist" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="9475-9580-6daa-4f6a" name="Heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="49a2-2f73-4a80-43a2" name="Heavy flamer" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="31c1-da5a-6442-6886" name="Ignores Cover" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+        <infoLink id="678b-a27a-b832-fcbd" name="Torrent" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague combi-bolter" hidden="false" id="9f9b-2c4c-2144-2574" collective="false">
+      <infoLinks>
+        <infoLink name="Lethal Hits" hidden="false" type="rule" id="e5a2-4eb4-bc15-b8d4" targetId="d1d1-611e-5191-1095"/>
+        <infoLink name="Rapid Fire" hidden="false" type="rule" id="bd57-e0c9-5d30-1f69" targetId="c5c8-8b58-b8b6-7786"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Plague combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9562-5504-46cc-e504">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 2</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="2+" field="94d-8a98-cf90-183e">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ca73-6068-bfc9-c0dd" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
 
     <selectionEntry type="unit" import="true" name="Blightlord Terminators" hidden="false" id="5b4e-dcf1-5c6f-4d35" publicationId="6bb4-8611-986f-58fa" page="41-42">
       <costs>
@@ -4880,28 +4977,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="59f7-a579-90fb-b52d"/>
               </constraints>
-              <modifiers>
-                <modifier type="add" value="Max 1 blight launcher or autocannon per 5 models" field="error">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition type="lessThan" value="10" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="71e1-f4eb-22c1-daa3" includeChildSelections="true"/>
-                            <condition type="greaterThan" value="1" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="546d-7cd9-e528-ba59" includeChildSelections="true"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                      <conditions>
-                        <condition type="greaterThan" value="2" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="f14a-89c7-80bc-d095" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <categoryLinks>
-                <categoryLink name="Blightlord heavy weapon" hidden="false" id="3db0-1736-e4c3-47cc" targetId="aa7e-4b31-713a-6732" primary="false"/>
-              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Terminator w/ reaper autocannon" hidden="false" id="3520-73d6-afc2-35c2">
               <entryLinks>
@@ -4935,28 +5010,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="59f7-a579-90fb-b52d"/>
               </constraints>
-              <modifiers>
-                <modifier type="add" value="Max 1 blight launcher or autocannon per 5 models" field="error">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition type="lessThan" value="10" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="1bf8-f7fa-6357-212a" includeChildSelections="true"/>
-                            <condition type="greaterThan" value="1" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="855e-4252-0129-acc0" includeChildSelections="true"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                      <conditions>
-                        <condition type="greaterThan" value="2" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="7a64-7628-265a-65d7" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <categoryLinks>
-                <categoryLink name="Blightlord heavy weapon" hidden="false" id="0013-917a-8edd-89f9" targetId="aa7e-4b31-713a-6732" primary="false"/>
-              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4994,7 +5047,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
       <infoLinks>
         <infoLink name="Nurgle&apos;s Gift (Aura)" hidden="false" type="rule" id="314a-cf71-f1b4-ccc4" targetId="fb44-7c0e-d9cb-5b88"/>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="37bf-4e4c-3bc6-dd33" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Verminous Haze" id="cbab-6d0c-b7e0-96fa" hidden="false" type="rule" targetId="adba-7d95-8104-80d2"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="999d-ab62-b2a4-d506" includeChildSelections="true"/>
@@ -5022,7 +5074,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <infoLink name="Lethal Hits" hidden="false" type="rule" id="feef-9d1a-1ea4-af13" targetId="d1d1-611e-5191-1095"/>
       </infoLinks>
     </selectionEntry>
-
     <selectionEntry type="unit" import="true" name="Deathshroud Terminators" hidden="false" id="83e8-ebb7-785a-2115" publicationId="6bb4-8611-986f-58fa" page="43-44">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
@@ -5056,7 +5107,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </profile>
         <profile name="Death Approaches" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4ac-68a4-3849-0000">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6" horizontally away from all Afflicted enemy units, and more than 9" horizontally away from all other enemy units.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6&quot; horizontally away from all Afflicted enemy units, and more than 9&quot; horizontally away from all other enemy units.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="71fc-4706-77d0-25e9">
@@ -5067,7 +5118,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
       </profiles>
       <infoLinks>
         <infoLink name="Deep Strike" hidden="false" type="rule" id="233a-746b-e4b7-b309" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Verminous Haze" id="b69a-8c83-6039-9e4b" hidden="false" type="rule" targetId="adba-7d95-8104-80d2"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Deathshroud Terminator Champion" hidden="false" id="b130-da57-6e9d-c693">
@@ -5173,6 +5223,30 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <infoLink name="Pistol" hidden="false" type="rule" id="4d78-87e9-38de-64b0" targetId="8bf7-8812-923d-29e4"/>
         <infoLink name="Torrent" hidden="false" type="rule" id="d582-c6cd-7e47-2739" targetId="5edf-d619-23e0-9b56"/>
         <infoLink name="Ignores Cover" hidden="false" type="rule" id="bbe8-a2-327-ad07" targetId="4640-43e7-30b-215a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague spewer" hidden="false" id="11ee-cdcb-eee3-4db9" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d855-162b-16a6-9bf8"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2ef-3194-40ec-906d"/>
+      </constraints>
+      <profiles>
+        <profile name="Plague spewer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d957-3e1d-68b7-f121">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti-" hidden="false" type="rule" id="118c-8601-3698-cc3c" targetId="4111-82e3-9444-e942"/>
+        <infoLink name="Ignores Cover" hidden="false" type="rule" id="14f3-ab56-e584-6c9f" targetId="4640-43e7-30b-215a"/>
+        <infoLink name="Torrent" hidden="false" type="rule" id="5446-2729-213c-a31e" targetId="5edf-d619-23e0-9b56"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
