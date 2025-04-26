@@ -1632,6 +1632,1911 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tallyman" hidden="false" id="4567-89ab-cdef-0123" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="89ab-cdef-0123-4567" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Tallyman" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cdef-0123-4567-89ab">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0123-4567-89ab-cdef">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit: **^^PLAGUE MARINES^^**</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Malicious Calculations" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4567-89ab-cdef-0123">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sevenfold Chant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89ab-cdef-0123-4567">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="cdef-0123-4567-89ab" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="0123-4567-89ab-cdef" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="4567-89ab-cdef-0123" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink name="Chaos" hidden="false" id="89ab-cdef-0123-4567" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="cdef-0123-4567-89ab" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Tallyman" hidden="false" id="0123-4567-89ab-cdef" targetId="82ec-2c74-d449-2afb" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Plasma pistol – standard" hidden="false" id="4567-89ab-cdef-0123" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="89ab-cdef-0123-4567-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89ab-cdef-0123-4567-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Plasma pistol – standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cdef-0123-4567-89ab">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Pistol" id="0123-4567-89ab-cdef" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plasma pistol – supercharge" hidden="false" id="89ab-cdef-0123-4567" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdef-0123-4567-89ab-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdef-0123-4567-89ab-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Plasma pistol – supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0123-4567-89ab-cdef">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Hazardous" id="4567-89ab-cdef-0123" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+            <infoLink name="Pistol" id="89ab-cdef-0123-4567" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="cdef-0123-4567-89ab" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0123-4567-89ab-cdef-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0123-4567-89ab-cdef-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4567-89ab-cdef-0123">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Leader" id="4567-89ab-cdef-0123" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink name="Nurgle's Gift (Aura)" id="89ab-cdef-0123-4567" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Plague Surgeon" hidden="false" id="fedc-ba98-7654-3210" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="ba98-7654-3210-fedc" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Plague Surgeon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7654-3210-fedc-ba98">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3210-fedc-ba98-7654">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit: **^^PLAGUE MARINES^^**</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tainted Narthecium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fedc-ba98-7654-3210">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inflamed Infections" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba98-7654-3210-fedc">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time this model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit. If that unit is Below Half-strength, an unmodified Hit roll of 4+ scores a Critical Hit instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="7654-3210-fedc-ba98" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="3210-fedc-ba98-7654" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="fedc-ba98-7654-3210" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
+        <categoryLink name="Chaos" hidden="false" id="ba98-7654-3210-fedc" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="7654-3210-fedc-ba98" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Plague Surgeon" hidden="false" id="3210-fedc-ba98-7654" targetId="b631-a560-7efd-9c94" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="fedc-ba98-7654-3210" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba98-7654-3210-fedc-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba98-7654-3210-fedc-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Bolt pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7654-3210-fedc-ba98">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="3210-fedc-ba98-7654" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+            <infoLink name="Pistol" id="fedc-ba98-7654-3210" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Balesword" hidden="false" id="ba98-7654-3210-fedc" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7654-3210-fedc-ba98-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7654-3210-fedc-ba98-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Balesword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3210-fedc-ba98-7654">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="ba98-7654-3210-fedc" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Leader" id="ba98-7654-3210-fedc" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink name="Nurgle's Gift (Aura)" id="7654-3210-fedc-ba98" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Poxwalkers" hidden="false" id="a123-b456-c789-d012" collective="false">
+      <profiles>
+        <profile name="Poxwalkers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ef12-3456-7890-abcd">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">7+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Curse of the Walking Pox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab23-cd45-ef67-89ab">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a POXWALKER model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), after this unit has resolved its attacks, you can return one destroyed POXWALKER model to this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="1234-5678-abcd-ef01" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="2345-6789-bcde-f012" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink name="Chaos" hidden="false" id="3456-7890-cdef-0123" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="4567-8901-defg-1234" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Poxwalkers" hidden="false" id="5678-9012-efgh-2345" targetId="2373-df61-e37e-7376" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Poxwalker" hidden="false" id="bc12-de34-fg56-hi78" collective="false">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="jk12-lm34-no56-pq78-min" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="jk12-lm34-no56-pq78-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Improvised weapon" hidden="false" id="rs12-tu34-vw56-xy78" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="za12-bc34-de56-fg78-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="za12-bc34-de56-fg78-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Improvised weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="hi12-jk34-lm56-no78">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="xyz9-abc8-def7-ghi6" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Feel No Pain" id="pq12-rs34-tu56-vw78" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Infiltrators" id="xy12-za34-bc56-de78" hidden="false" targetId="c05d-f4c3-f091-4938" type="rule"/>
+        <infoLink name="Nurgle's Gift (Aura)" id="fg12-hi34-jk56-lm78" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Death Guard Icon Bearer" hidden="false" id="d234-e567-f890-g123" collective="false">
+      <profiles>
+        <profile name="Death Guard Icon Bearer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="h345-i678-j901-k234">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Unclean Icon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="l456-m789-n012-o345">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blessed Icon of Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="p567-q890-r123-s456">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of any phase, you can select one friendly DEATH GUARD unit that is not Battle-shocked and within 12" of this model. That unit is no longer Battle-shocked.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="t678-u901-v234-w567">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit: PLAGUE MARINES</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="x789-y012-z345-a678" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="b890-c123-d456-e789" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="f012-g345-h678-i901" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="j234-k567-l890-m123" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="n456-o789-p012-q345" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Death Guard Icon Bearer" hidden="false" id="r678-s901-t234-u567" targetId="483a-2919-74ca-338e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="v890-w123-x456-y789" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="z012-a345-b678-c901-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="z012-a345-b678-c901-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Boltgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d234-e567-f890-g123">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="h345-i678-j901-k234" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plague knife" hidden="false" id="l456-m789-n012-o345" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="p567-q890-r123-s456-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="p567-q890-r123-s456-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Plague knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="t678-u901-v234-w567">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="x789-y012-z345-a678" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Leader" id="b890-c123-d456-e789" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink name="Nurgle's Gift (Aura)" id="f012-g345-h678-i901" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Foetid Bloat-drone" hidden="false" id="abcd-1234-5678-9abc" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="1234-5678-9abc-def0" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Foetid Bloat-drone" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5678-9abc-def0-1234">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9abc-def0-1234-5678">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hovering Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="def0-1234-5678-9abc">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is eligible to shoot and declare a charge in a turn in which it Fall Back.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="ef01-2345-6789-abcd" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="2345-6789-abcd-ef01" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Fly" hidden="false" id="6789-abcd-ef01-2345" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="abcd-ef01-2345-6789" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="6789-abcd-ef01-2345" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="ef01-2345-6789-abcd" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Foetid Bloat-drone" hidden="false" id="1234-5678-9abc-def0" targetId="49a1-f5d-c162-cd36" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fleshmower" hidden="false" id="5678-9abc-def0-1234" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def0-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def0-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Fleshmower" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9abc-def0-1234-5678">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="def0-1234-5678-9abc" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plague probe" hidden="false" id="6789-abcd-ef01-2345" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Plague probe" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="abcd-ef01-2345-6789">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="ef01-2345-6789-abcd" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plaguespitter" hidden="false" id="1234-5678-9abc-def0" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9abc-def0-1234-5678-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9abc-def0-1234-5678-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Plaguespitter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ef01-2345-6789-abcd">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Anti-" id="2345-6789-abcd-ef01" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+            <infoLink name="Ignores Cover" id="6789-abcd-ef01-2345" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+            <infoLink name="Torrent" id="abcd-ef01-2345-6789" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon Options" id="def0-1234-5678-9abc" hidden="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ef01-2345-6789-abcd" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2345-6789-abcd-ef01" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Plaguespitters" hidden="false" id="6789-abcd-ef01-2345" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abcd-ef01-2345-6789" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Plaguespitter" hidden="false" id="ef01-2345-6789-abcd" targetId="1234-5678-9abc-def0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" value="2" field="9abc-def0-1234-5678-min"/>
+                    <modifier type="set" value="2" field="9abc-def0-1234-5678-max"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="6789-abcd-ef01-2345" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="abcd-ef01-2345-6789" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Foetid Bloat-drone with Heavy Blight Launcher" hidden="false" id="dcba-4321-8765-cba9" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4321-8765-cba9-def0" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Foetid Bloat-drone with Heavy Blight Launcher" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8765-cba9-def0-4321">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cba9-def0-4321-8765">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Explosive Blight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="def0-4321-8765-cba9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time this model makes an attack that destroys an enemy unit, before removing the last model in that unit from play, roll a D6, adding 1 to the result if that unit is Afflicted: on a 5+, each enemy unit within 6" of that model is Afflicted until the start of your next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="ba98-7654-3210-fedc" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="7654-3210-fedc-ba98" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Fly" hidden="false" id="3210-fedc-ba98-7654" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="fedc-ba98-7654-3210" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="3210-fedc-ba98-7654" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="ba98-7654-3210-fedc" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Foetid Bloat-drone" hidden="false" id="4321-8765-cba9-def0" targetId="49a1-f5d-c162-cd36" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Heavy blight launcher" hidden="false" id="8765-cba9-def0-4321" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4321-8765-cba9-def0-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4321-8765-cba9-def0-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Heavy blight launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cba9-def0-4321-8765">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="def0-4321-8765-cba9" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plague probe" hidden="false" id="3210-fedc-ba98-7654" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8765-cba9-def0-4321-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8765-cba9-def0-4321-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Plague probe" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="fedc-ba98-7654-3210">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="ba98-7654-3210-fedc" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="3210-fedc-ba98-7654" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="fedc-ba98-7654-3210" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Plagueburst Crawler" hidden="false" id="b5ad-9734-d291-a65e" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="0843-7d12-9017-cd30" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Plagueburst Crawler" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c1f3-e23d-cd58-b124">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1dbd-75a8-9b9a-06a0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spore-laced Shock Waves" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b7f0-ca7f-7215-ec2a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time you select a target for this model's Plagueburst mortar, roll one D6 for the target unit and every other enemy unit within 3" of the target unit, adding 1 to the roll if the unit being rolled for is Afflicted. On a 6+, the unit being rolled for is struck by spores; after resolving all of this model's attacks against the target unit, each unit struck by spores suffers D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged: 1-4 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45ad-93c2-ab65-9c18">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="9ad3-52af-d4c1-34f8" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="d7d2-2b0e-7323-c97e" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Daemon" hidden="false" id="4b39-8a50-8f7e-8aeb" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="a8ce-b789-fbff-e3d5" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="63e5-bd83-d32e-e4ea" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Plagueburst Crawler" hidden="false" id="c22c-4f00-4ca7-0d88" targetId="4c91-4274-fb70-1293" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Plagueburst mortar" hidden="false" id="15b0-6a6e-36a9-2e45" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8c2-cb66-d2da-9e40" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0307-82e3-fa01-7bce" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Plagueburst mortar" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ad01-6242-a85a-b4bc">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire, Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast" id="2fca-32b6-5cba-cd02" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+            <infoLink name="Indirect Fire" id="5c2a-ff2d-fd77-ee90" hidden="false" targetId="9571-5897-b32a-d915" type="rule"/>
+            <infoLink name="Lethal Hits" id="9ec3-7c1f-5c78-cd63" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Heavy slugger" hidden="false" id="5d30-6a86-26e3-b10b" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7cbe-1ae3-a22a-1cc0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86ef-44b0-b9d1-245a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Heavy slugger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d1b0-1c9e-c37c-7f72">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="85aa-aa05-fa0c-d4d1" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="5dce-12fd-2d3d-a1fa" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9aea-e46e-7e28-eb7e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cc9-e63c-2b6b-2c1a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7fcb-0f8a-a5a0-54b5">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon options 1" hidden="false" id="f8a2-7b0e-3e3f-a8ff" defaultSelectionEntryId="cc21-1dc7-e6e7-7c7d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8aae-d336-bd5c-62e0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a34-8e24-cc9c-1eb8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Entropy cannons" hidden="false" id="cc21-1dc7-e6e7-7c7d" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1387-e0da-c1fc-fc5a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b5e-b5d5-27c1-5cca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Entropy cannon" hidden="false" id="61bd-ff00-5f54-ae2b" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c48e-1c76-5e3c-6cdc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e63f-f93e-88d0-d5b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Entropy cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8cd2-6ecc-a731-1c95">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Lethal Hits" id="a3cb-1ed7-2dcf-0a8e" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Plaguespitters" hidden="false" id="41ea-a8c9-b3cc-1b25" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6f1-40d3-2d6a-b4fa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0eb9-36d0-9f78-9f49" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Plaguespitter" hidden="false" id="6c31-1b30-bb1a-5d72" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ae90-0a59-9b0a-caff" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="af38-57ef-4b0c-7c67" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Plaguespitter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="77c8-0ecb-c752-4fd8">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 2+, Ignores Cover, Torrent</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Anti-" id="11e2-06e0-0a37-e507" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                    <infoLink name="Ignores Cover" id="3c01-7a18-48d8-b95e" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+                    <infoLink name="Torrent" id="b34a-ab3d-99e9-4eb0" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapon options 2" hidden="false" id="df3e-d81a-7dd0-c7d3" defaultSelectionEntryId="ef01-6b26-e0b5-4d4c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc35-f810-9dc8-87b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13c3-0c0c-f51e-9e09" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy slugger" hidden="false" id="ef01-6b26-e0b5-4d4c" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4ba-19d3-dc16-8e42" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed72-68fb-9c1e-e14d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rothail volley gun" hidden="false" id="3ca1-d9d6-2ace-ee4a" collective="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a1e-09c5-a95c-9e87" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3de7-d76a-e4b9-95b9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Rothail volley gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="dbdc-52a9-9ddb-be95">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="d5d3-f57e-0c9a-5264" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                <infoLink name="Rapid Fire" id="5a81-c16a-6ecd-ec69" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="d76e-badb-ec41-ffc3" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="e2b7-97cb-b3e1-a0bf" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Predator Annihilator" hidden="false" id="6b2c-5f67-89a2-b364" collective="false">
+      <profiles>
+        <profile name="Predator Annihilator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8fa6-9ea2-4f7b-9ab6">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">11</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Metalophagic Infection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45b1-ad30-e15c-9f6c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Roll one D6; on a 4+, adding 1 to the result if that unit is Afflicted, on a 5+, that unit suffers D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged: 1-4 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6c3-d90c-a6bf-3eae">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="5bd5-8de7-4bfc-6ff3" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="2a6e-49b2-84a5-9b16" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="e0f2-fb16-6644-4f29" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="3e11-b9e1-3c89-bee4" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Predator Annihilator" hidden="false" id="8ef9-3de3-5fca-c74f" targetId="6827-5075-9b9d-a714" primary="false"/>
+        <categoryLink targetId="ed0d-8e2a-225c-2340" id="9a17-5d59-53a1-c842" primary="false" name="Nurgle"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Predator twin lascannon" hidden="false" id="3d73-a94e-eb9f-9eb2" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1dd1-8d7a-b2ca-dc04-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dd1-8d7a-b2ca-dc04-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Predator twin lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1da3-bd3a-6db3-e8dc">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Twin-linked" id="7e15-aca8-1841-7f52" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="1abe-11a7-5c8f-a186" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7559-a4d8-6c6d-15ee-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7559-a4d8-6c6d-15ee-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2f7c-8bd5-b82c-6f31">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sponson Weapons" id="d9da-b2e3-17ff-9146" hidden="false" defaultSelectionEntryId="none">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0e4-c1c6-5d30-fd97" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Lascannons" hidden="false" id="f5ee-93fc-c68f-ea8d" collective="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="4be2-34dc-a0bc-f8b2" collective="false">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="eec7-0b9e-7d3e-321c-min" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="eec7-0b9e-7d3e-321c-max" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1ea2-b61b-17e3-b5f7">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Heavy bolters" hidden="false" id="3e9c-8dfe-3651-c31e" collective="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="76ff-e2f9-f3b3-c89c" collective="false">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d26f-f6ab-1a42-beaf-min" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d26f-f6ab-1a42-beaf-max" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a0bd-00c1-badf-8f83">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Sustained Hits 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Lethal Hits" id="0a77-c8a0-1c8a-b7c1" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                    <infoLink name="Sustained Hits" id="a2b4-c3c1-0cff-a2e7" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pintle weapon" id="e1cf-fb2a-d31c-8f0d" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4be7-3bc0-9fb8-8c5e" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="f9a7-2b0a-eccc-9dca" collective="false">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b94a-9fa7-bbbc-8bef-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b94a-9fa7-bbbc-8bef-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5f4e-02af-e71e-dcfc">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" id="8e27-edf4-bfa1-a7a8" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Combi-weapon" id="9e1d-5b27-dbc6-71b5" hidden="false" defaultSelectionEntryId="none">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0af8-9c88-17fd-95c9" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="e69a-d0bf-77d3-b1e2" collective="false">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8cf5-3ad3-9fd3-1a71-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cf5-3ad3-9fd3-1a71-max" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="df89-71dd-0ec1-55ab">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Lethal Hits" id="7b28-7a9f-8fa0-ed51" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                    <infoLink name="Rapid Fire" id="cd24-ffcd-2ab7-8644" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="b4ec-e3c7-c10d-2e6f" collective="false">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="271b-d649-92d5-c8e4-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="271b-d649-92d5-c8e4-max" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Combi-weapon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b60c-b79a-20ba-3b6a">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Anti-" id="a6b0-a0ec-06be-6d85" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                    <infoLink name="Devastating Wounds" id="8bf8-fbcb-4cb1-7ac1" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                    <infoLink name="Rapid Fire" id="d3e8-f6a9-f01e-1efe" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="97dd-44ae-c6ad-6e7a" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="2eae-5fab-d553-cef6" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="c7dc-f70e-5578-33df" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Predator Destructor" hidden="false" id="5432-10ab-cdef-9876" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="10ab-cdef-9876-5432" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Predator Destructor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cdef-9876-5432-10ab">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">11</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hail of Corrosive Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9876-5432-10ab-cdef">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the end of the phase, each time a friendly DEATH GUARD unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged: 1-4 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5432-10ab-cdef-9876">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="cdef-9876-5432-10ab" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="9876-5432-10ab-cdef" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Smoke" hidden="false" id="5432-10ab-cdef-9876" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="10ab-cdef-9876-5432" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Predator Destructor" hidden="false" id="cdef-9876-5432-10ab" targetId="53e9-1065-3b4f-9de" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="9876-5432-10ab-cdef" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Predator autocannon" hidden="false" id="5432-10ab-cdef-9876" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Predator autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9876-5432-10ab-cdef">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">LETHAL HITS, RAPID FIRE 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="cdef-9876-5432-10ab" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+            <infoLink name="Rapid Fire" id="9876-5432-10ab-cdef" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="10ab-cdef-9876-5432" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="10ab-cdef-9876-5432">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sponson weapons" id="9876-5432-10ab-cdef" hidden="false" defaultSelectionEntryId="none">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Heavy bolters" hidden="false" id="10ab-cdef-9876-5432" collective="false">
+              <profiles>
+                <profile name="Heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9876-5432-10ab-cdef">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">LETHAL HITS, SUSTAINED HITS 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="cdef-9876-5432-10ab" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                <infoLink name="Sustained Hits" id="9876-5432-10ab-cdef" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Lascannons" hidden="false" id="cdef-9876-5432-10ab" collective="false">
+              <profiles>
+                <profile name="Lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5432-10ab-cdef-9876">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pintle weapon" id="10ab-cdef-9876-5432" hidden="false" defaultSelectionEntryId="none">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9876-5432-10ab-cdef" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="cdef-9876-5432-10ab" collective="false">
+              <profiles>
+                <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5432-10ab-cdef-9876">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">LETHAL HITS, RAPID FIRE 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="10ab-cdef-9876-5432" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                <infoLink name="Rapid Fire" id="cdef-9876-5432-10ab" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="9876-5432-10ab-cdef" collective="false">
+              <profiles>
+                <profile name="Combi-weapon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="10ab-cdef-9876-5432">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="5432-10ab-cdef-9876" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                <infoLink name="Devastating Wounds" id="10ab-cdef-9876-5432" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                <infoLink name="Rapid Fire" id="9876-5432-10ab-cdef" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Havoc launcher" id="5432-10ab-cdef-9876" hidden="false" defaultSelectionEntryId="none">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="9876-5432-10ab-cdef" collective="false">
+              <profiles>
+                <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cdef-9876-5432-10ab">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">BLAST</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" id="5432-10ab-cdef-9876" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="9876-5432-10ab-cdef" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="5432-10ab-cdef-9876" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Defiler" hidden="false" id="7abc-def0-1234-5678" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="1234-5678-9abc-def0" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Defiler" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5678-9abc-def0-1234">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9abc-def0-1234-5678">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scuttling Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="def0-1234-5678-9abc">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly MONSTER and VEHICLE models and terrain features that are 4" or less in height.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Barrage of Filth" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5678-9abc-def0-1234">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged: 1-5 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1234-5678-9abc-def0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="def0-1234-5678-9abc" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="5678-9abc-def0-1234" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Walker" hidden="false" id="1234-5678-9abc-def0" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="9abc-def0-1234-5678" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="def0-1234-5678-9abc" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="9abc-def0-1234-5678" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="5678-9abc-def0-1234" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Defiler" hidden="false" id="1234-5678-9abc-def0" targetId="23fa-bbe8-32c1-aca9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Battle cannon" hidden="false" id="def0-1234-5678-9abc" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9abc-def0-1234-5678">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast" id="1234-5678-9abc-def0" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+            <infoLink name="Lethal Hits" id="5678-9abc-def0-1234" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Defiler claws" hidden="false" id="9abc-def0-1234-5678" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def0-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def0-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Defiler claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="def0-1234-5678-9abc">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">16</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Replace reaper autocannon" id="def0-1234-5678-9abc" hidden="false" defaultSelectionEntryId="9abc-def0-1234-5678">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Reaper autocannon" hidden="false" id="9abc-def0-1234-5678" collective="false">
+              <profiles>
+                <profile name="Reaper autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1234-5678-9abc-def0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Sustained Hits 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Devastating Wounds" id="5678-9abc-def0-1234" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                <infoLink name="Sustained Hits" id="def0-1234-5678-9abc" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin heavy bolter" hidden="false" id="5678-9abc-def0-1234" collective="false">
+              <profiles>
+                <profile name="Twin heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="def0-1234-5678-9abc">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Sustained Hits 1, Twin-linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="1234-5678-9abc-def0" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                <infoLink name="Sustained Hits" id="9abc-def0-1234-5678" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+                <infoLink name="Twin-linked" id="5678-9abc-def0-1234" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin lascannon" hidden="false" id="def0-1234-5678-9abc" collective="false">
+              <profiles>
+                <profile name="Twin lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9abc-def0-1234-5678">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Twin-linked" id="1234-5678-9abc-def0" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Replace twin heavy flamer" id="9abc-def0-1234-5678" hidden="false" defaultSelectionEntryId="1234-5678-9abc-def0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="def0-1234-5678-9abc-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="def0-1234-5678-9abc-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin heavy flamer" hidden="false" id="1234-5678-9abc-def0" collective="false">
+              <profiles>
+                <profile name="Twin heavy flamer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5678-9abc-def0-1234">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent, Twin-linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Ignores Cover" id="9abc-def0-1234-5678" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+                <infoLink name="Torrent" id="def0-1234-5678-9abc" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+                <infoLink name="Twin-linked" id="5678-9abc-def0-1234" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Defiler scourge" hidden="false" id="def0-1234-5678-9abc" collective="false">
+              <profiles>
+                <profile name="Defiler scourge" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5678-9abc-def0-1234">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="9abc-def0-1234-5678" hidden="false" targetId="115b-79dc-f723-d761" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="9abc-def0-1234-5678" collective="false">
+              <profiles>
+                <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1234-5678-9abc-def0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Blast" id="5678-9abc-def0-1234" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Additional weapon" id="5678-9abc-def0-1234" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9abc-def0-1234-5678-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="1234-5678-9abc-def0" collective="false">
+              <profiles>
+                <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="def0-1234-5678-9abc">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="5678-9abc-def0-1234" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                <infoLink name="Rapid Fire" id="9abc-def0-1234-5678" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="def0-1234-5678-9abc" collective="false">
+              <profiles>
+                <profile name="Combi-weapon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9abc-def0-1234-5678">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="1234-5678-9abc-def0" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                <infoLink name="Devastating Wounds" id="5678-9abc-def0-1234" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                <infoLink name="Rapid Fire" id="def0-1234-5678-9abc" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="def0-1234-5678-9abc" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="1234-5678-9abc-def0" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chaos Land Raider" hidden="false" id="f10c-5f3e-c09d-0b12" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="32e8-59b9-5ccd-ca27" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Chaos Land Raider" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1204-e042-b8fb-d16c">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">16</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e99-a2be-7d7b-1972">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chaos Land Raider" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="6987-e064-d6d8-401f">
+          <characteristics>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 14 **^^Death Guard Infantry^^** models. Each **^^Terminator^^** model takes up the space of 2 models.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged: 1-5 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b146-5f0b-e066-d4c4">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="63af-3ed5-625a-3654" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D6" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle's Gift (Aura)" id="d1cf-1605-8925-2f09" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="187d-b6ba-2817-ed9b" targetId="dbd4-63-af05-998" primary="true"/>
+        <categoryLink name="Transport" hidden="false" id="ddf3-62a4-6f31-02e5" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="cdbe-98ac-d500-e7df" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="840c-738d-133a-3318" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Land Raider" hidden="false" id="902c-557a-3461-1cef" targetId="d112-e0ab-1f69-f84c" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="f948-20f4-ebba-6c6e" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="6f13-8105-fe9f-830e" targetId="9888-ddb2-a141-6037" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Soulshatter lascannon" hidden="false" id="2e62-00e4-8585-c884" collective="false">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6e58-a831-70b3-2918" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dece-a802-5766-f637" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Soulshatter lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cf8f-c1a5-acfd-cf4d">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Twin heavy bolter" hidden="false" id="7216-974e-0908-05d9" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="239e-d66b-8631-3648" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c16f-c690-c1b1-e447" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Twin heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e905-c7a5-3468-02f2">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">36"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Sustained Hits" id="c769-f171-13de-7d3f" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+            <infoLink name="Twin-linked" id="d3a5-dcf3-b0ac-8a54" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="61b6-4d0d-039d-6efc" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="addc-91f8-7608-fe4e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d13-a2a4-a3db-5da0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="f2e2-5cf9-ec1d-c257">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="30af-8a66-f8ab-21e0" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5910-64fa-cdfd-ce3e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2d43-1a06-65e0-2fc4">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast" id="2fde-9071-9e0b-7e87" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Pintle weapon" id="8209-27d3-d9ce-c774" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fca7-c9a5-cd32-aee2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="4972-4ee8-41a1-aa4b" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3241-a18d-e45c-55c7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5ec6-92a4-407a-f5a9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="7675-08b8-947b-9188" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                <infoLink name="Rapid Fire" id="f9fb-bcb8-5179-7b2c" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="e28b-90a0-feb5-41f3" collective="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2911-d4ff-335b-6e9a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Combi-weapon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c2e7-7533-b572-eadb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="cdbc-6289-e2fc-df1a" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                <infoLink name="Rapid Fire" id="3529-ba3b-2232-0c34" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                <infoLink name="Devastating Wounds" id="17d5-c094-5f0b-c132" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="240"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Nurgle&apos;s Gift (Aura)" id="fb44-7c0e-d9cb-5b88" hidden="false">
