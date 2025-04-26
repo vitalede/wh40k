@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="31" revision="1" authorContact="oberyn" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="1a94-f115-b6aa-cdee" targetId="ac3b-689c-4ad4-70cb" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="379a-6b61-9b41-26a4" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Library - Titans" id="4fb5-2490-7b48-0545" targetId="7481-280e-b55e-7867" importRootEntries="true"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Daemon Prince with Wings" hidden="false" id="5b9e-935a-4ad6-5524"/>
+    <categoryEntry name="Typhus" hidden="false" id="ce7a-c25-fcfc-8033"/>
+    <categoryEntry name="Terminator" hidden="false" id="3113-5b62-29ef-b798"/>
+    <categoryEntry name="Chaos Lord" hidden="false" id="ca73-6068-bfc9-c0dd"/>
+    <categoryEntry name="Lord of Virulence" hidden="false" id="5da6-a091-fe72-147e"/>
+    <categoryEntry name="Lord of Contagion" hidden="false" id="e79a-932-d885-2d30"/>
+    <categoryEntry name="Sorcerer" hidden="false" id="e37b-6db-a5-23ed"/>
+    <categoryEntry name="Malignant Plaguecaster" hidden="false" id="966f-9cb8-39fe-450"/>
+    <categoryEntry name="Plague Marines" hidden="false" id="8448-53ec-fbc3-467c"/>
+    <categoryEntry name="Cultists" hidden="false" id="968f-9957-d230-c10f"/>
+    <categoryEntry name="Poxwalkers" hidden="false" id="2373-df61-e37e-7376"/>
+    <categoryEntry name="Noxious Blightbringer" hidden="false" id="4184-cab9-b99a-d510"/>
+    <categoryEntry name="Foul Blightspawn" hidden="false" id="917-dc6c-ae70-a45b"/>
+    <categoryEntry name="Biologus Putrifier" hidden="false" id="a376-7f02-1fc8-6be0"/>
+    <categoryEntry name="Tallyman" hidden="false" id="82ec-2c74-d449-2afb"/>
+    <categoryEntry name="Plague Surgeon" hidden="false" id="b631-a560-7efd-9c94"/>
+    <categoryEntry name="Deathshroud Terminators" hidden="false" id="9f2e-3944-438a-b83e"/>
+    <categoryEntry name="Blightlord Terminators" hidden="false" id="9a0a-c155-5cd5-8ba3"/>
+    <categoryEntry name="Spawn" hidden="false" id="1e2b-6337-2a58-8a6"/>
+    <categoryEntry name="Helbrute" hidden="false" id="5d42-daa2-fd12-7120"/>
+    <categoryEntry name="Myphitic Blight-haulers" hidden="false" id="cef-8477-ba87-91dc"/>
+    <categoryEntry name="Foetid Bloat-drone" hidden="false" id="49a1-f5d-c162-cd36"/>
+    <categoryEntry name="Plagueburst Crawler" hidden="false" id="4c91-4274-fb70-1293"/>
+    <categoryEntry name="Land Raider" hidden="false" id="d112-e0ab-1f69-f84c"/>
+    <categoryEntry name="Predator Annihilator" hidden="false" id="6827-5075-9b9d-a714"/>
+    <categoryEntry name="Predator Destructor" hidden="false" id="53e9-1065-3b4f-9de"/>
+    <categoryEntry name="Defiler" hidden="false" id="23fa-bbe8-32c1-aca9"/>
+    <categoryEntry name="Rhino" hidden="false" id="43d3-aab8-f264-70da"/>
+    <categoryEntry name="Mortarion" hidden="false" id="cea3-a4bc-e37d-5412"/>
+    <categoryEntry name="Death Guard Icon Bearer" hidden="false" id="483a-2919-74ca-338e"/>
+    <categoryEntry name="Faction: Plague Legions" id="fb5a-2c8e-4a14-7f43" hidden="false">
+      <modifiers>
+        <modifier type="set" value="500" field="38f0-8b33-45c4-9a1a">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1000" field="38f0-8b33-45c4-9a1a">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1500" field="38f0-8b33-45c4-9a1a">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="51b2-306e-1021-d207" scope="force" shared="true" id="38f0-8b33-45c4-9a1a" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="2acd-6c3c-b00c-929d">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="17c2-0c5b-82e8-83a3-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="17c2-0c5b-82e8-83a3-max" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Detachment Choice" id="7c59-bd3b-8b1c-1a8d" hidden="false" defaultSelectionEntryId="none">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dce-dddb-d9e8-ead1-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0dce-dddb-d9e8-ead1-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Virulent Vectorium" hidden="false" id="1dbf-3fd5-ef8c-e155">
+              <rules>
+                <rule name="Worldblight" id="3745-c9a6-b2c5-ebbd" hidden="false">
+                  <description>If you control an objective marker at the end of your Command phase and a **^^Death Guard^^** unit from your army (excluding Battle-shocked units) is within range of that objective marker, that objective marker remains under your control until your opponent&apos;s Level of Control over that objective marker is greater than yours at the end of a phase.
+
+In addition, until you lose control of that objective marker, it has the Nurgle&apos;s Gift ability (pg 71) as if it were a **^^Death Guard^^** model from your army.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mortarion&apos;s Hammer" hidden="false" id="b29f-c9bd-9dd6-8ac5">
+              <rules>
+                <rule name="Miasmic Bombardment" id="d711-a14c-1bc1-a3f0" hidden="false">
+                  <description>At the start of the battle round, select a number of enemy units more than 12&quot; away from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are Afflicted. The maximum number of units you can select in this way depends on the battle size, as shown below:
+
+- Incursion: 1
+- Strike Force: 2
+- Onslaught: 3</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Champions of Contagion" hidden="false" id="4eca-5691-ddbf-fb3e">
+              <rules>
+                <rule name="Manifold Maladies" id="01a8-e0a8-4557-cb8f" hidden="false">
+                  <description>At the start of the battle round, you can select one of the Plagues listed in Nurgle&apos;s Gift (pg 71). Until the end of the battle, that is your chosen Plague instead of any previously chosen Plague.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shamblerot Vectorium" hidden="false" id="f66a-510a-ca2a-7fa0">
+              <rules>
+                <rule name="Numberless Horde" id="c93b-3e99-7e28-96c9" hidden="false">
+                  <description>In your Command phase in each of the following battle rounds, depending on your chosen battle size, add a new **^^Poxwalkers^^** unit with a Starting Strength of 10 to your army, in Strategic Reserves:
+
+- Incursion: Battle Rounds 2, 3
+- Strike Force: Battle Rounds 2, 3, 4
+- Onslaught: Battle Rounds 2, 3, 4, 5</description>
+                </rule>
+                <rule name="Keywords" id="3ec5-c94c-bc79-8a81" hidden="false">
+                  <description>**^^Poxwalkers^^** units from your army gain the **^^Battleline^^** keyword.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Death Lord&apos;s Chosen" hidden="false" id="1bc8-3afd-feb1-37bc">
+              <rules>
+                <rule name="Deadly Vectors" id="0d9e-5ca9-c4cd-aa82" hidden="false">
+                  <description>In your opponent&apos;s Command phase, roll 2D6 for each Afflicted enemy unit, subtracting 1 from the result if that unit is Below Half-strength. If the result is 6 or less, that enemy unit suffers D3 mortal wounds.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tallyband Summoners" hidden="false" id="a6fe-dc39-9e01-87d3">
+              <rules>
+                <rule name="Reverberant Rancidity" id="5730-fe41-b9d2-8cce" hidden="false">
+                  <description>While a **^^Plague Legions^^** unit from your army is within 7&quot; of one or more **^^Death Guard^^** units from your army, that **^^Plague Legions^^** unit has the Nurgle&apos;s Gift ability.
+
+            While a **^^Death Guard^^** unit from your army is within 7&quot; of one or more **^^Plague Legions^^** units from your army, add 3&quot; to that **^^Death Guard^^** unit&apos;s Contagion Range.</description>
+                </rule>
+                <rule name="Plague Legions" id="4fa1-2c60-b8c1-23be" hidden="false">
+                  <description>You can include **^^Plague Legions**^^ units in your army (pg 106-109), even though they do not have the **^^Death Guard**^^ Faction keyword. The combined points cost of such units you can include in your army is:
+            - **Incursion**: Up to 500pts
+            - **Strike Force**: Up to 1000pts
+            - **Onslaught**: Up to 1500pts
+
+            No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="a097-98a9-f40a-62b4" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mortarion" hidden="false" id="46eb-5cc9-6a2b-c25c" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="de95-92d1-fe79-bff2" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Mortarion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f6ec-43fa-cca8-e5b7">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">16</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c5ba-15e0-d6f9-38ec">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Host of Plagues" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c8d2-50e8-b5bc-62a5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Movement phase, roll one D6 for each enemy unit within 6&quot; of this model, adding 1 to the result if that enemy unit is Afflicted: on a 3+, that enemy unit suffers D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged: 1-6 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9d4-9ff9-7f10-2b7e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bcb7-33ef-71ba-ee88">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is in your army, it must be your **^^Warlord^^**.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Diseased Influence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d41f-7ed3-d8d5-d2c5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Just after an enemy unit ends a Normal, Advance or Fall Back move within 9&quot; of a friendly **^^Death Guard^^** unit that is within 6&quot; of this model, if that **^^Death Guard^^** unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 5&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lord of the Death Guard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4dc3-56bf-0ea5-6d3e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, this model can use one of the Lord of the Death Guard abilities [see pg].</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="6b21-7f0b-8c6a-9f8d" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="b962-0ca4-cc07-6bc9" targetId="9693-cf84-fe69-37a9" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="fd76-1cd3-7214-8e5e" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Epic Hero" hidden="false" id="5efe-ef30-14f4-0462" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink name="Fly" hidden="false" id="b97a-09a9-a8fb-f7fd" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Psyker" hidden="false" id="a3de-76a4-e45f-a4f4" targetId="13bf-2bee-3ae0-b414" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="9f87-be3f-1e16-32f3" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Grenades" hidden="false" id="1aa2-ec6f-d0cb-8e42" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Slaanesh" hidden="false" id="2bd2-d1e5-a4a1-3d94" targetId="b2a9-ede5-7a83-4da8" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="6249-bccc-3da3-0c7d" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Primarch" hidden="false" id="a8ec-c9d0-04d0-3f1f" targetId="6474-0ce3-6b5a-120c" primary="false"/>
+        <categoryLink targetId="cea3-a4bc-e37d-5412" id="1a27-e134-9c45-a7bd" primary="false" name="Mortarion"/>
+        <categoryLink targetId="ed0d-8e2a-225c-2340" id="ba23-b0b7-7b73-7bdd" primary="false" name="Nurgle"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lantern" hidden="false" id="be45-5dae-42a5-c5ad" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2bb-a5df-fec5-28f7-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2bb-a5df-fec5-28f7-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Lantern" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6df6-a429-7bda-e27d">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits D3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Sustained Hits" id="f0d8-a1a0-ecbc-9f3d" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rotwind" hidden="false" id="45e7-c97e-e8ed-b5f4" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e37a-1a18-8177-5cfe-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e37a-1a18-8177-5cfe-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Rotwind" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8c7e-dba0-4af3-adad">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Devastating Wounds, Lethal Hits, Psychic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast" id="8f31-cacc-ee0f-7773" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+            <infoLink name="Devastating Wounds" id="f5d5-be4f-ece0-df69" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+            <infoLink name="Lethal Hits" id="a4e7-12cf-d7d3-c5d3" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+            <infoLink name="Psychic" id="7d43-1ad4-e452-a21c" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Silence – strike" hidden="false" id="1f05-4c3f-fb64-0cdf" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3be3-dedb-e93e-a6af-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3be3-dedb-e93e-a6af-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Silence – strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c6c7-ff1d-4f82-cb96">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Devastating Wounds" id="e82a-0eef-1a75-1903" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+            <infoLink name="Lethal Hits" id="1c21-ce04-d968-8c90" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Silence – sweep" hidden="false" id="0ea1-ab1a-c04d-3dd9" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3747-87db-faff-df4c-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3747-87db-faff-df4c-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Silence – sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7ca5-5d03-9095-78a9">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">15</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits, Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="8f14-a47c-7cca-d0c8" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+            <infoLink name="Sustained Hits" id="b39d-bd0e-6b37-f4fa" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="7a50-95f9-10bc-19a7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8aa1-f0be-5a3b-7edc-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aa1-f0be-5a3b-7edc-max" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="e7bd-1dae-22e5-5b7e" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Lord of the Death Guard" id="0f16-dc32-db4f-2b14" hidden="false">
+          <profiles>
+            <profile name="Boon of Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4cb9-7a9d-3bb4-1fbc">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Fight phase, when a friendly **^^Death Guard^^** unit within 6&quot; of this model is selected as the target of an attack, this model can use this ability. If it does, until the end of the phase, each time a model in that **^^Death Guard^^** unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 2+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Inflamed Reprisal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4384-82bd-bdb0-0ae4">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, when a friendly **^^Death Guard^^** unit within 6&quot; of this model is selected as the target of an attack, this model can use this ability. If it does, after the attacking unit has finished making its attacks, that **^^Death Guard^^** unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink name="Feel No Pain" id="6cb3-85eb-61a7-c1cd" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" id="50e0-aa94-4742-c29d" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Deadly Demise" id="89b1-0e53-aaa1-7d95" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D6" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle&apos;s Gift (Aura)" id="41e0-d3de-56fd-21b6" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Typhus" hidden="false" id="1234-5678-9abc-def0" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5678-9abc-def0-1234" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Typhus" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="abcd-ef01-2345-6789">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="def0-1234-5678-9abc">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Destroyer Hive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9abc-def0-1234-5678">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Enter Plague (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5678-9abc-def0-1234">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This PSYKER can use this ability in your Shooting phase. If it does, select one enemy unit within 18&quot; of and visible to this PSYKER and roll one D6: on a 1, this PSYKER&apos;s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2345-6789-abcd-ef01">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: BLIGHTLORD TERMINATORS, DEATHSHROUD TERMINATORS, POXWALKERS</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="6789-abcd-ef01-2345" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="abcd-ef01-2345-6789" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="ef01-2345-6789-abcd" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Epic Hero" hidden="false" id="2345-6789-abcd-ef01" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink name="Psyker" hidden="false" id="1234-5678-9abc-def0" targetId="13bf-2bee-3ae0-b414" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="5678-9abc-def0-1234" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Terminator" hidden="false" id="6789-abcd-ef01-2345" targetId="740a-892c-8958-defa" primary="false"/>
+        <categoryLink targetId="ed0d-8e2a-225c-2340" id="6c76-dfbd-5c51-af38" primary="false" name="Nurgle"/>
+        <categoryLink targetId="ce7a-c25-fcfc-8033" id="0bf7-e1ee-4a63-50f2" primary="false" name="Typhus"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Manreaper – strike" hidden="false" id="ef01-2345-6789-abcd" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2345-6789-abcd-ef01-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2345-6789-abcd-ef01-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Manreaper – strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ef01-2345-6789-abcd">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="1234-5678-9abc-def0" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Manreaper – sweep" hidden="false" id="6789-abcd-ef01-2345" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abcd-ef01-2345-6789-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abcd-ef01-2345-6789-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Manreaper – sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6789-abcd-ef01-2345">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">12</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="def0-1234-5678-9abc" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="9abc-def0-1234-5678" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Leader" id="6789-abcd-ef01-2345" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink name="Nurgle&apos;s Gift (Aura)" id="1234-5678-9abc-def0" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Daemon Prince of Nurgle" hidden="false" id="9876-5432-10ab-cdef" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="5432-10ab-cdef-9876" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Daemon Prince of Nurgle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="10ab-cdef-9876-5432">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cdef-9876-5432-10ab">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Death Guard Defenders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5432-10ab-cdef-9876">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly DEATH GUARD INFANTRY units, this model has the Lone Operative ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Favored Strategies" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="10ab-cdef-9876-5432">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, you can use it when a friendly DEATH GUARD unit within 12&quot; of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Miasma of Pestilence (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cdef-9876-5432-10ab">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly DEATH GUARD unit is within 6&quot; of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="cdef-9876-5432-10ab" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="9876-5432-10ab-cdef" targetId="9693-cf84-fe69-37a9" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="5432-10ab-cdef-9876" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="10ab-cdef-9876-5432" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="10ab-cdef-9876-5432" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Daemon Prince" hidden="false" id="9876-5432-10ab-cdef" targetId="4f09-0141-6c70-6c5a" primary="false"/>
+        <categoryLink targetId="ed0d-8e2a-225c-2340" id="79df-dca2-6368-0b3d" primary="false" name="Nurgle"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Infernal cannon" hidden="false" id="5432-10ab-cdef-9876" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Infernal cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9876-5432-10ab-cdef">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="cdef-9876-5432-10ab" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hellforged weapons – strike" hidden="false" id="cdef-9876-5432-10ab" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9876-5432-10ab-cdef-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9876-5432-10ab-cdef-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Hellforged weapons – strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5432-10ab-cdef-9876">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">7</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="5432-10ab-cdef-9876" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hellforged weapons – sweep" hidden="false" id="10ab-cdef-9876-5432" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Hellforged weapons – sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="10ab-cdef-9876-5432">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">14</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="9876-5432-10ab-cdef" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="9876-5432-10ab-cdef" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Nurgle&apos;s Gift (Aura)" id="5432-10ab-cdef-9876" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Daemon Prince of Nurgle with Wings" hidden="false" id="9876-5432-10ed-cdef" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="5432-10ed-cdef-9876" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Daemon Prince of Nurgle with Wings" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="10ed-cdef-9876-5432">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cdef-9876-5432-10ed">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Horrifying Visage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5432-10ed-cdef-9876">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test, subtracting 1 from that test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Enfeebling Miasma (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="10ed-cdef-9876-5432">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit (excluding MONSTERS and VEHICLES) is within 6" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="cdef-9876-5432-10ed" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="9876-5432-10ed-cdef" targetId="9693-cf84-fe69-37a9" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="5432-10ed-cdef-9876" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="8765-4321-fe0d-cba9" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="10ed-cdef-9876-5432" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Daemon" hidden="false" id="cdef-9876-5432-10ed" targetId="9c0e-7e25-4580-e439" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="9876-5432-10ed-cdef" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Daemon Prince with Wings" hidden="false" id="5432-10ed-cdef-9876" targetId="5b9e-935a-4ad6-5524" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Infernal cannon" hidden="false" id="5432-10ed-cdef-9876" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10ed-cdef-9876-5432-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ed-cdef-9876-5432-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Infernal cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9876-5432-10ed-cdef">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="cdef-9876-5432-10ed" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hellforged weapons – strike" hidden="false" id="cdef-9876-5432-10ed" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9876-5432-10ed-cdef-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9876-5432-10ed-cdef-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Hellforged weapons – strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5432-10ed-cdef-9876">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">7</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="5432-10ed-cdef-9876" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hellforged weapons – sweep" hidden="false" id="10ed-cdef-9876-5432" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5432-10ed-cdef-9876-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5432-10ed-cdef-9876-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ Hellforged weapons – sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="10ed-cdef-9876-5432">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">14</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="9876-5432-10ed-cdef" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="9876-5432-10ed-cdef" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" id="5432-10ed-cdef-9876" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Nurgle's Gift (Aura)" id="10ed-cdef-9876-5432" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lord of Virulence" hidden="false" id="abcd-1234-5678-efgh" collective="false">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="1234-5678-efgh-abcd" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Lord of Virulence" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5678-efgh-abcd-1234">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5"</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efgh-abcd-1234-5678">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Virulent Aura" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="abcd-1234-5678-efgh">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blight Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efgh-abcd-1234-5678">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Shooting phase, select one enemy unit within 30" of and visible to this model. Until the end of the phase, each time a friendly DEATH GUARD model makes a ranged attack that targets that unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1234-5678-efgh-abcd">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: BLIGHTLORD TERMINATORS, DEATHSHROUD TERMINATORS</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Death Guard" hidden="false" id="abcd-1234-5678-efgh" targetId="9888-ddb2-a141-6037" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="5678-efgh-abcd-1234" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="efgh-abcd-1234-5678" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Chaos" hidden="false" id="1234-5678-efgh-abcd" targetId="4c00-2578-faf5-6918" primary="false"/>
+        <categoryLink name="Nurgle" hidden="false" id="abcd-1234-5678-efgh" targetId="ed0d-8e2a-225c-2340" primary="false"/>
+        <categoryLink name="Terminator" hidden="false" id="5678-efgh-abcd-1234" targetId="3113-5b62-29ef-b798" primary="false"/>
+        <categoryLink name="Lord of Virulence" hidden="false" id="efgh-abcd-1234-5678" targetId="5da6-a091-fe72-147e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Twin plague spewer" hidden="false" id="abcd-1234-5678-efgh" collective="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1234-5678-efgh-abcd-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1234-5678-efgh-abcd-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Twin plague spewer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5678-efgh-abcd-1234">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12"</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Anti-" id="efgh-abcd-1234-5678" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+            <infoLink name="Ignores Cover" id="abcd-1234-5678-efgh" hidden="false" targetId="4640-43e7-30b-215a" type="rule"/>
+            <infoLink name="Torrent" id="5678-efgh-abcd-1234" hidden="false" targetId="5edf-d619-23e0-9b56" type="rule"/>
+            <infoLink name="Twin-linked" id="1234-5678-efgh-abcd" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Power fist" hidden="false" id="abcd-1234-5678-efgh">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-efgh-abcd-1234-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-efgh-abcd-1234-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Power fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1234-5678-efgh-abcd">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Lethal Hits" id="efgh-abcd-1234-5678" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="abcd-1234-5678-efgh" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink name="Leader" id="5678-efgh-abcd-1234" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink name="Nurgle's Gift (Aura)" id="efgh-abcd-1234-5678" hidden="false" targetId="fb44-7c0e-d9cb-5b88" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Nurgle&apos;s Gift (Aura)" id="fb44-7c0e-d9cb-5b88" hidden="false">
+      <description>If your Army Faction is **^^Death Guard^^**, while an enemy unit is within Contagion Range of one or more **^^Death Guard^^** models from your army, it is Afflicted (see below).
+
+**CONTAGION RANGE**
+Contagion Range changes over the course of the battle:
+- 1st Battle Round: Contagion Range = 3&quot;
+- 2nd Battle Round: Contagion Range = 6&quot;
+- 3rd Battle Round Onwards: Contagion Range = 9&quot;
+
+**AFFLICTED**
+During the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.
+
+**Skullsquirm Blight**
+Each time a model in this unit makes an attack, subtract 1 from the Hit roll.
+
+**Rattlejoint Ague**
+Worsen the Save characteristic of models in this unit by 1.
+
+**Scabrous Soulrot**
+Worsen the Move, Leadership, and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model&apos;s Objective Control characteristic to a minimum of 1).
+
+**PACT OF DECAY**
+When mustering your army, unless specifically stated otherwise, you cannot select **^^Plague Legions^^** as your Army Faction.</description>
+    </rule>
+  </sharedRules>
+  <entryLinks>
+    <entryLink import="true" name="Mortarion" hidden="false" id="f0df-b6d7-acb1-09f0" type="selectionEntry" targetId="46eb-5cc9-6a2b-c25c"/>
+    <entryLink import="true" name="Show/Hide Options" hidden="false" id="5f47-6f45-3fc5-5e6a" type="selectionEntry" targetId="e8ef-836a-a9d1-901d">
+      <entryLinks>
+        <entryLink import="true" name="Show Chaos Knights" hidden="false" id="c57f-39a7-e1c7-e7fe" type="selectionEntry" targetId="aeb4-96de-7401-eaa3"/>
+        <entryLink import="true" name="Show Titans" hidden="false" id="d3c2-ab18-e2ef-3fae" type="selectionEntry" targetId="f26b-79db-80e0-3a3b"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Detachment" hidden="false" id="d5c6-afc2-6c33-048a" type="selectionEntry" targetId="2acd-6c3c-b00c-929d"/>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Enhancements" id="eebb-fdc7-319e-db1b" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf2d-d141-32a3-9da9" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="8257-c477-ff42-7fcd" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Daemon Weapon of Nurgle" hidden="false" id="c95e-8b98-4544-bd5c">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1dbf-3fd5-ef8c-e155" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Daemon Weapon of Nurgle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f486-59a3-0b82-c1c7">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. Each time the bearer makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Virulent Vectorium</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e93a-7c1d-dd04-2b74" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Furnace of Plagues" hidden="false" id="fa33-4315-7238-6d5e">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1dbf-3fd5-ef8c-e155" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Furnace of Plagues" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb5c-46ee-6911-d4e7">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. Add 1 to the Strength and Attacks characteristics of the bearer&apos;s melee weapons, and the bearer&apos;s melee weapons have the [^^Devastating Wounds^^] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Virulent Vectorium</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="14e7-dfec-aaef-6dea" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Arch Contaminator" hidden="false" id="abff-6e56-e7a1-1e6e">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1dbf-3fd5-ef8c-e155" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Arch Contaminator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb62-8d83-3f8f-c7ed">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. While the bearer&apos;s unit is within range of an objective marker you control, each time a model in the bearer&apos;s unit makes an attack, you can re-roll the Wound roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Virulent Vectorium</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="baeb-a0b1-4222-2a47" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Revolting Regeneration" hidden="false" id="f79d-3f0a-d85a-8a2c">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1dbf-3fd5-ef8c-e155" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Revolting Regeneration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f0b9-7a10-c40a-ca01">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. The bearer has the Feel No Pain 5+ ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Virulent Vectorium</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4774-86e9-ac61-10b0" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Eye of Affliction" hidden="false" id="7fa4-b4a1-3c77-c19c">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b29f-c9bd-9dd6-8ac5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Eye of Affliction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c80-e9a3-2d7d-7a2d">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. Ranged weapons equipped by models in the bearer&apos;s unit have the [^^Ignores Cover^^] ability while targeting an Afflicted enemy unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Mortarion&apos;s Hammer</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2f4f-e4ea-a559-5a2a" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bilemaw Blight" hidden="false" id="8359-e514-6aec-8f18">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b29f-c9bd-9dd6-8ac5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Bilemaw Blight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a0a9-95dd-4e22-c4bf">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Malignant Plaguecaster^^** only. At the start of your Shooting phase, until the end of the phase, add 12&quot; to the Range characteristics of the bearer&apos;s Plague Wind weapon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Mortarion&apos;s Hammer</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4b70-4bc9-c93f-5842" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shriekworm Familiar" hidden="false" id="b5d5-2303-9a1e-c3e8">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b29f-c9bd-9dd6-8ac5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Shriekworm Familiar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0e33-c9d4-df16-f5be">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. Once per battle round, you can target the bearer&apos;s unit with the Fire Overwatch Stratagem for 0CP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Mortarion&apos;s Hammer</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1c64-d68e-c72e-dc79" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Final Ingredient" hidden="false" id="19c0-c22e-e5d4-c631">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="4eca-5691-ddbf-fb3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Final Ingredient" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eefd-f42d-1066-9839">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Biologus Putrifier^^** only. Once per battle, after the bearer&apos;s unit has fought, if one or more **^^Character^^** models were destroyed as a result of those attacks, select one Plague. Until the end of the battle, while an enemy unit is Afflicted, that unit has the effect of the selected Plague in addition to any other.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Champions of Contagion</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c2a6-c3c6-a54c-3f89" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Visions of Virulence" hidden="false" id="a7c3-c706-9906-38a2">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="4eca-5691-ddbf-fb3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Visions of Virulence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d7e-9c09-5a0e-cf87">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Malignant Plaguecaster^^** only. While an enemy unit is enfeebled by the bearer&apos;s Pestilent Fallout ability, that unit is also Afflicted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Champions of Contagion</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b0fd-7d8b-1e92-6d7e" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Needle of Nurgle" hidden="false" id="a95b-7efb-fb2a-dcdf">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="4eca-5691-ddbf-fb3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Needle of Nurgle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="abff-4a7e-5c18-0bc5">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Plague Surgeon^^** only. Each time the bearer uses its Tainted Narthecium ability, you can return up to D3 destroyed models to the bearer&apos;s unit (instead of 1).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Champions of Contagion</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d618-d2ae-7bb9-5cdd" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Witherbone Pipes" hidden="false" id="87a2-1cd5-4c9e-8e5e">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f66a-510a-ca2a-7fa0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Witherbone Pipes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="da67-92a5-c7ce-0e43">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Noxious Blightbringer^^** only. While the bearer is leading a **^^Poxwalkers^^** unit, add 1 to the Objective Control characteristic of models in that unit, and each time that unit takes a Battle-shock or Leadership test, add 1 to that test.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Shamblerot Vectorium</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="53a0-ffd4-cf1e-5f44" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Lord of the Walking Pox" hidden="false" id="f1bb-3a31-b31a-51a1">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f66a-510a-ca2a-7fa0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Lord of the Walking Pox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f9b1-5b78-9f0e-d578">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. If the bearer is leading a **^^Poxwalker^^** unit, and is in Strategic Reserves, for the purposes of setting up that unit on the battlefield, treat the current battle round as the third battle round.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Shamblerot Vectorium</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="24b0-c42e-5eaf-d066" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sorrowsyphon" hidden="false" id="addb-b1f1-c9f4-0f3e">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="f66a-510a-ca2a-7fa0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Sorrowsyphon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5de0-86bb-15ca-6cd0">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Malignant Plaguecaster^^** only. While the bearer is leading a **^^Poxwalkers^^** unit, add 1 to the Damage characteristic of the bearer&apos;s Plague Wind weapon. Each time the bearer makes one or more attacks with a Plague Wind weapon, after the bearer&apos;s unit has resolved its attacks, D3 Bodyguard models from the bearer&apos;s unit are destroyed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Shamblerot Vectorium</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4aca-eb86-66d2-f8ca" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Face of Death" hidden="false" id="4d97-0e31-6a00-81dc">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1bc8-3afd-feb1-37bc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Face of Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d44-2e66-05ec-b2cb">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Terminator^^** model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer&apos;s unit must take a Battle-shock test.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Death Lord&apos;s Chosen</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5f9e-6e1f-b8b3-1be1" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Vile Vigour" hidden="false" id="4a5a-9a9f-5ea7-6175">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1bc8-3afd-feb1-37bc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Vile Vigour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d78-4bb1-7a14-8582">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Terminator^^** model only. While the bearer is leading a unit, add 1&quot; to the Movement characteristic of models in that unit and you can re-roll Advance rolls made for that unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Death Lord&apos;s Chosen</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="51c0-d196-6f03-08f2" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warprot Talisman" hidden="false" id="45aa-4dab-e03e-ab5a">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1bc8-3afd-feb1-37bc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Warprot Talisman" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66ee-dbbf-08be-3e68">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Terminator^^** model only. Once per battle, at the end of your opponent&apos;s turn, if the bearer&apos;s unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Death Lord&apos;s Chosen</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e8f5-bada-7c4d-a1e1" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Helm of the Fly King" hidden="false" id="87a2-d694-b7f0-e85f">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1bc8-3afd-feb1-37bc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Helm of the Fly King" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f4b9-9414-a68b-c1a6">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Terminator^^** model only. While the bearer is leading a unit, models in that unit cannot be targeted by ranged attacks unless the attacking model is within 18&quot;.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Death Lord&apos;s Chosen</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="61bd-0cea-7723-f01a" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Beckoning Blight" hidden="false" id="64f2-0c83-fbc0-a2b4">
+          <comment>Tallyband Summoners</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7a58-e802-8f2b-34c3" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="a6fe-dc39-9e01-87d3" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="cf47-a0d7-7207-29dc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Beckoning Blight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1d5e-9142-2bc8-d3f3">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. Each time a **^^Plague Legions^^** unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within 12&quot; of the bearer, it can be set up anywhere that is more than 6&quot; horizontally away from all enemy models, instead of more than 9&quot;.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fell Harvester" hidden="false" id="b730-4d50-9a86-f42c">
+          <comment>Tallyband Summoners</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d8cb-2c73-ad05-7e6a" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="a6fe-dc39-9e01-87d3" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="cf47-a0d7-7207-29dc" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Fell Harvester" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="73a5-c6c8-7ab3-a1fc">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Death Guard^^** model only. Add 2 to the Attacks characteristic of the bearer&apos;s melee weapons.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Entropic Knell" hidden="false" id="af76-c7b2-ab39-9215">
+          <comment>Tallyband Summoners</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="21ea-a7c6-fd23-1d98" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="a6fe-dc39-9e01-87d3" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Entropic Knell" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2b70-d36e-c5b7-70a3">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Great Unclean One^^** only. In the Battle-shock step of your opponent&apos;s Command phase, each enemy unit within 6&quot; of the bearer that is below its Starting Strength must take a Battle-shock test, subtracting 1 from that test.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tome of Bounteous Blessings" hidden="false" id="e13b-8fb2-c39f-3f6a">
+          <comment>Tallyband Summoners</comment>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d5c2-7d3a-cf84-47db" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="a6fe-dc39-9e01-87d3" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="13bf-2bee-3ae0-b414" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Tome of Bounteous Blessings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9c7-8a12-ebd5-fb32">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Malignant Plaguecaster^^** only. Each time a **^^Plague Legions^^** unit within 12&quot; of the bearer takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a **^^Battleline^^** unit and that test is passed, up to D3 destroyed models can be returned to that unit instead).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
