@@ -5361,23 +5361,14 @@ When mustering your army, unless specifically stated otherwise, you cannot selec
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Detachment" hidden="false" id="d5c6-afc2-6c33-048a" type="selectionEntry" targetId="2acd-6c3c-b00c-929d"/>
-    <entryLink import="true" name="Typhus" hidden="false" id="a123-b456-c789-d012" type="selectionEntry" targetId="1234-5678-9abc-def0"/>
-    <entryLink import="true" name="Daemon Prince of Nurgle" hidden="false" id="b234-c567-d890-e123" type="selectionEntry" targetId="9876-5432-10ab-cdef"/>
-    <entryLink import="true" name="Daemon Prince of Nurgle with Wings" hidden="false" id="c345-d678-e901-f234" type="selectionEntry" targetId="9876-5432-10ed-cdef"/>
-    <entryLink import="true" name="Lord of Virulence" hidden="false" id="d456-e789-f012-g345" type="selectionEntry" targetId="abcd-1234-5678-efgh"/>
     <entryLink import="true" name="Lord of Poxes" hidden="false" id="e567-f890-g123-h456" type="selectionEntry" targetId="54b8-1fd8-8b7e-6d2c"/>
     <entryLink import="true" name="Lord of Contagion" hidden="false" id="f678-g901-h234-i567" type="selectionEntry" targetId="3c28-6d3c-7a21-51f5"/>
-    <entryLink import="true" name="Malignant Plaguecaster" hidden="false" id="g789-h012-i345-j678" type="selectionEntry" targetId="abcd-1234-5678-9abc"/>
+    <entryLink import="true" name="Foetid Bloat-drone" hidden="false" id="g789-h012-i345-j678" type="selectionEntry" targetId="abcd-1234-5678-9abc"/>
     <entryLink import="true" name="Noxious Blightbringer" hidden="false" id="h890-i123-j456-k789" type="selectionEntry" targetId="abcd-1234-5678-9def"/>
     <entryLink import="true" name="Foul Blightspawn" hidden="false" id="i901-j234-k567-l890" type="selectionEntry" targetId="a7c8-9d1e-f7f2-e4b3"/>
-    <entryLink import="true" name="Tallyman" hidden="false" id="j012-k345-l678-m901" type="selectionEntry" targetId="4567-89ab-cdef-0123"/>
-    <entryLink import="true" name="Plague Surgeon" hidden="false" id="k123-l456-m789-n012" type="selectionEntry" targetId="fedc-ba98-7654-3210"/>
-    <entryLink import="true" name="Poxwalkers" hidden="false" id="l234-m567-n890-o123" type="selectionEntry" targetId="a123-b456-c789-d012"/>
-    <entryLink import="true" name="Foetid Bloat-drone" hidden="false" id="m345-n678-o901-p234" type="selectionEntry" targetId="abcd-1234-5678-9abc"/>
     <entryLink import="true" name="Foetid Bloat-drone with Heavy Blight Launcher" hidden="false" id="n456-o789-p012-q345" type="selectionEntry" targetId="dcba-4321-8765-cba9"/>
     <entryLink import="true" name="Plagueburst Crawler" hidden="false" id="o567-p890-q123-r456" type="selectionEntry" targetId="b5ad-9734-d291-a65e"/>
     <entryLink import="true" name="Predator Annihilator" hidden="false" id="p678-q901-r234-s567" type="selectionEntry" targetId="6b2c-5f67-89a2-b364"/>
-    <entryLink import="true" name="Predator Destructor" hidden="false" id="q789-r012-s345-t678" type="selectionEntry" targetId="5432-10ab-cdef-9876"/>
     <entryLink import="true" name="Defiler" hidden="false" id="r890-s123-t456-u789" type="selectionEntry" targetId="7abc-def0-1234-5678"/>
     <entryLink import="true" name="Chaos Land Raider" hidden="false" id="s901-t234-u567-v890" type="selectionEntry" targetId="f10c-5f3e-c09d-0b12"/>
     <entryLink import="true" name="Chaos Rhino" hidden="false" id="t012-u345-v678-w901" type="selectionEntry" targetId="8ae1-aa47-e1d1-1b31"/>
