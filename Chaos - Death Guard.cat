@@ -837,11 +837,11 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
       <categoryLinks>
         <categoryLink name="Faction: Death Guard" hidden="false" id="abcd-1234-5678-efgh" targetId="9888-ddb2-a141-6037" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="5678-efgh-abcd-1234" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="efgh-abcd-1234-5678" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="efgh-abcd-1234-5678" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
         <categoryLink name="Chaos" hidden="false" id="1234-5678-efgh-abcd" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink name="Nurgle" hidden="false" id="abcd-1234-5678-efgh" targetId="ed0d-8e2a-225c-2340" primary="false"/>
         <categoryLink name="Terminator" hidden="false" id="5678-efgh-abcd-1234" targetId="3113-5b62-29ef-b798" primary="false"/>
-        <categoryLink name="Lord of Virulence" hidden="false" id="efgh-abcd-1234-5678" targetId="5da6-a091-fe72-147e" primary="true"/>
+        <categoryLink name="Lord of Virulence" hidden="false" id="efgh-abcd-1234-5678" targetId="5da6-a091-fe72-147e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Twin plague spewer" hidden="false" id="abcd-1234-5678-efgh" collective="false">
@@ -1606,7 +1606,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Tallyman" hidden="false" id="4567-89ab-cdef-0123" collective="false">
+    <selectionEntry type="model" import="true" name="Tallyman" hidden="false" id="1aaf-7531-3bda-6868" collective="false">
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="89ab-cdef-0123-4567" includeChildSelections="true"/>
       </constraints>
@@ -1934,7 +1934,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Death Guard Icon Bearer" hidden="false" id="d234-e567-f890-g123" collective="false">
+    <selectionEntry type="model" import="true" name="Death Guard Icon Bearer" hidden="false" id="390b-32ca-0d20-9a2b" collective="false">
       <profiles>
         <profile name="Death Guard Icon Bearer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="h345-i678-j901-k234">
           <characteristics>
@@ -2709,33 +2709,6 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4be7-3bc0-9fb8-8c5e" includeChildSelections="false"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="f9a7-2b0a-eccc-9dca" collective="false">
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b94a-9fa7-bbbc-8bef-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b94a-9fa7-bbbc-8bef-max" includeChildSelections="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5f4e-02af-e71e-dcfc">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Blast" id="8e27-edf4-bfa1-a7a8" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup name="Combi-weapon" id="9e1d-5b27-dbc6-71b5" hidden="false" defaultSelectionEntryId="none">
               <constraints>
@@ -3097,8 +3070,8 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Battle cannon" hidden="false" id="def0-1234-5678-9abc" collective="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1235-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1235-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Battle cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9abc-def0-1234-5678">
@@ -3123,8 +3096,8 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Defiler claws" hidden="false" id="9abc-def0-1234-5678" collective="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def0-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def0-max" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def1-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def1-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Defiler claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="def0-1234-5678-9abc">
@@ -5491,7 +5464,35 @@ When mustering your army, unless specifically stated otherwise, you cannot selec
     <entryLink import="true" name="Foul Blightspawn" hidden="false" id="i901-j234-k567-l890" type="selectionEntry" targetId="a7c8-9d1e-f7f2-e4b3"/>
     <entryLink import="true" name="Foetid Bloat-drone with Heavy Blight Launcher" hidden="false" id="n456-o789-p012-q345" type="selectionEntry" targetId="dcba-4321-8765-cba9"/>
     <entryLink import="true" name="Plagueburst Crawler" hidden="false" id="o567-p890-q123-r456" type="selectionEntry" targetId="b5ad-9734-d291-a65e"/>
-    <entryLink import="true" name="Predator Annihilator" hidden="false" id="p678-q901-r234-s567" type="selectionEntry" targetId="6b2c-5f67-89a2-b364"/>
+    <entryLink import="true" name="Predator Annihilator" hidden="false" id="p678-q901-r234-s567" type="selectionEntry" targetId="6b2c-5f67-89a2-b364">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="f9a7-2b0a-eccc-9dca" collective="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b94a-9fa7-bbbc-8bef-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b94a-9fa7-bbbc-8bef-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Havoc launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5f4e-02af-e71e-dcfc">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast" id="8e27-edf4-bfa1-a7a8" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </entryLink>
     <entryLink import="true" name="Defiler" hidden="false" id="r890-s123-t456-u789" type="selectionEntry" targetId="7abc-def0-1234-5678"/>
     <entryLink import="true" name="Chaos Land Raider" hidden="false" id="s901-t234-u567-v890" type="selectionEntry" targetId="f10c-5f3e-c09d-0b12"/>
     <entryLink import="true" name="Chaos Rhino" hidden="false" id="t012-u345-v678-w901" type="selectionEntry" targetId="8ae1-aa47-e1d1-1b31"/>
@@ -5505,6 +5506,8 @@ When mustering your army, unless specifically stated otherwise, you cannot selec
     <entryLink import="true" name="Lord of Virulence" hidden="false" id="e108-ddeb-ed32-7e7c" targetId="0143-fe7a-035d-11c7" type="selectionEntry"/>
     <entryLink import="true" name="Typhus" hidden="false" id="7513-c069-078c-3098" targetId="4cfe-56db-2bdc-1c50" type="selectionEntry"/>
     <entryLink import="true" name="Predator Destructor" hidden="false" id="daf6-395e-fb1c-492e" targetId="6131-748a-b2c0-a3bb" type="selectionEntry"/>
+    <entryLink import="true" name="Tallyman" hidden="false" id="a73a-d4cf-257e-0451" targetId="1aaf-7531-3bda-6868" type="selectionEntry"/>
+    <entryLink import="true" name="Death Guard Icon Bearer" hidden="false" id="336c-8a8c-e908-3fbe" targetId="390b-32ca-0d20-9a2b" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" id="eebb-fdc7-319e-db1b" hidden="false">
