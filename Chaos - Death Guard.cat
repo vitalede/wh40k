@@ -1481,7 +1481,7 @@ No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</de
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="776a-2ea-4309-bac6"/>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="b6b3-4b27-80a3-f32f"/>
+                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="b6b3-4b27-80a3-f32f"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
