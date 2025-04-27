@@ -481,6 +481,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="10e7-d76d-b019-5f5d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bc6-fd0b-6b2c-5903" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="7af9-0217-db65-552b" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Deep Strike" id="9abc-def0-1234-5678" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
@@ -616,6 +624,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="1292-d36e-21f5-0cad">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d970-f096-c1ae-6aad" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="66f4-4a7d-30c9-815a" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Deadly Demise" id="9876-5432-10ab-cdef" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
@@ -632,6 +648,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="0737-0860-a85e-f361" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Daemon Prince of Nurgle with Wings" hidden="false" id="9876-5432-10ed-cdef" collective="false">
       <constraints>
@@ -750,6 +769,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="5173-1896-9b54-756c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="751f-4499-45f2-8f7a" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="382f-abd2-7683-9e47" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Deadly Demise" id="9876-5432-10ed-cdef" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
@@ -767,6 +794,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="fbe8-cf34-c408-18a1" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lord of Virulence" hidden="false" id="abcd-1234-5678-efgh" collective="false">
       <constraints>
@@ -867,6 +897,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="5b33-cd48-db53-5a24">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dca9-9d55-3371-9ae4" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="173b-be31-1889-6449" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Deep Strike" id="abcd-1234-5678-efgh" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
@@ -880,6 +918,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="cddd-5b10-fdc5-6db4" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lord of Poxes" hidden="false" id="54b8-1fd8-8b7e-6d2c" collective="false">
       <constraints>
@@ -1004,6 +1045,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="93c2-ddd6-5fd7-9f4f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a744-3ca2-8d1e-9856" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="c607-05e3-98fa-c00e" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" id="ea9c-e4c0-cbe8-bbc4" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
@@ -1117,6 +1166,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="1aeb-557c-4d68-69b8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f97-4baa-043c-f963" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="dc76-a922-a4be-4de2" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Enhancements" hidden="false" id="b7f2-dc4f-b8cd-b835" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
@@ -1134,7 +1191,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Malignant Plaguecaster" hidden="false" id="abcd-1234-5678-9abc" collective="false">
+    <selectionEntry type="model" import="true" name="Malignant Plaguecaster" hidden="false" id="904b-e487-b2aa-dd74" collective="false">
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="1234-5678-9abc-def0" includeChildSelections="true"/>
       </constraints>
@@ -1280,6 +1337,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="6593-5f87-423d-82ad">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="651d-074f-5ef0-b94e" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="8f9b-2e1a-c2a5-6b43" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Leader" id="5678-9abc-def0-1234" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
@@ -1292,6 +1357,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="e528-17dc-8585-012b" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Noxious Blightbringer" hidden="false" id="abcd-1234-5678-9def" collective="false">
       <constraints>
@@ -1411,6 +1479,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="1ad5-294f-0bfc-81ac">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4170-e01f-07e8-4e80" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="cee3-4c86-834f-f76d" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Leader" id="5678-9def-abcd-1234" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
@@ -1423,6 +1499,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="d356-d95c-9617-b13a" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Foul Blightspawn" hidden="false" id="a7c8-9d1e-f7f2-e4b3" collective="false">
       <constraints>
@@ -1640,6 +1719,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="2a35-3989-76ce-bc66">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="849e-4827-6809-bc61" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="3973-20e8-0bfb-329f" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Leader" id="4567-89ab-cdef-0123" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
@@ -1652,6 +1739,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="e531-6b39-88d7-8912" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Plague Surgeon" hidden="false" id="fedc-ba98-7654-3210" collective="false">
       <constraints>
@@ -1744,6 +1834,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="4846-a8ab-4dbf-6515">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05d1-187f-dc7b-e014" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="8853-e851-1cd6-1855" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Leader" id="ba98-7654-3210-fedc" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
@@ -1756,6 +1854,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="63f0-caf9-c1f2-2af1" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Poxwalkers" hidden="false" id="a123-b456-c789-d012" collective="false">
       <profiles>
@@ -1920,6 +2021,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="9073-066b-ca27-969c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68f1-c03f-0d66-b6f5" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="027a-d62d-5167-8528" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Leader" id="b890-c123-d456-e789" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
@@ -1932,6 +2041,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="23b9-96ff-c733-fc46" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Foetid Bloat-drone" hidden="false" id="abcd-1234-5678-9abc" collective="false">
       <constraints>
@@ -5227,6 +5339,14 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <categoryLink name="Biologus Putrifier" hidden="false" id="39e1-5e2e-b8ae-97de" targetId="a376-7f02-1fc8-6be0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="f9ff-d493-5645-7a74">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e55-e1df-4bf1-e444" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Warlord" hidden="false" id="f40c-8cd8-0bf1-4236" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hyper blight grenades" hidden="false" id="21e9-8dc0-2d71-cb53" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5dd-b5dd-5231-34b6-min" includeChildSelections="false"/>
@@ -5323,6 +5443,9 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="5ecf-bdc0-46a3-c3af" type="selectionEntryGroup" targetId="eebb-fdc7-319e-db1b"/>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -5378,6 +5501,7 @@ When mustering your army, unless specifically stated otherwise, you cannot selec
     <entryLink import="true" name="Death Guard Helbrute" hidden="false" id="x456-y789-z012-a345" type="selectionEntry" targetId="2a2b-643e-860e-b524"/>
     <entryLink import="true" name="Blightlord Terminators" hidden="false" id="y567-z890-a123-b456" type="selectionEntry" targetId="5b4e-dcf1-5c6f-4d35"/>
     <entryLink import="true" name="Deathshroud Terminators" hidden="false" id="z678-a901-b234-c567" type="selectionEntry" targetId="83e8-ebb7-785a-2115"/>
+    <entryLink import="true" name="Malignant Plaguecaster" hidden="false" id="1369-b42b-0fb2-be3a" targetId="904b-e487-b2aa-dd74" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" id="eebb-fdc7-319e-db1b" hidden="false">
