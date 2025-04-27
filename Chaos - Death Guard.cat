@@ -3081,7 +3081,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <categoryLink name="Defiler" hidden="false" id="1234-5678-9abc-def0" targetId="23fa-bbe8-32c1-aca9" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle cannon" hidden="false" id="def0-1234-5678-9abc" collective="false">
+        <selectionEntry type="upgrade" import="true" name="Battle cannon" hidden="false" id="1742-32b4-56ac-b38b" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1235-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1235-max" includeChildSelections="false"/>
@@ -3107,7 +3107,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Defiler claws" hidden="false" id="9abc-def0-1234-5678" collective="false">
+        <selectionEntry type="upgrade" import="true" name="Defiler claws" hidden="false" id="c0c6-0037-a934-1733" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def1-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1234-5678-9abc-def1-max" includeChildSelections="false"/>
@@ -5492,7 +5492,7 @@ When mustering your army, unless specifically stated otherwise, you cannot selec
     <entryLink import="true" name="Death Guard Icon Bearer" hidden="false" id="336c-8a8c-e908-3fbe" targetId="390b-32ca-0d20-9a2b" type="selectionEntry"/>
     <entryLink import="true" name="Predator Annihilator" hidden="false" id="8ccb-bf4c-7074-5d55" targetId="6b2c-5f67-89a2-b364" type="selectionEntry"/>
     <entryLink import="true" name="Predator Destructor" hidden="false" id="91e5-2a1c-7627-1d59" targetId="6131-748a-b2c0-a3bb" type="selectionEntry"/>
-    <entryLink import="true" name="Defiler" hidden="false" id="8e4d-a2e3-0c3e-dc93" targetId="7abc-def0-1234-5678" type="selectionEntry"/>
+    <entryLink import="true" name="Defiler" hidden="false" id="883e-97da-f8b2-2616" targetId="7abc-def0-1234-5678" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" id="eebb-fdc7-319e-db1b" hidden="false">
