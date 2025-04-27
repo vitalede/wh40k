@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5108-f98-63c2-53cb" name="Chaos - Death Guard" revision="44" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5108-f98-63c2-53cb" name="Chaos - Death Guard" revision="47" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink id="9fec-b3ad-9626-6706" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="4e2e-3067-84f6-f727" targetId="b45c-af22-788a-dfd6" importRootEntries="true"/>
@@ -8,8 +8,8 @@
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Detachment Choice" hidden="false" type="selectionEntry" id="60ed-ab58-d20f-75e7" targetId="57f2-e2d6-47ed-ddd2"/>
-    <entryLink import="true" name="Death Guard Daemon Prince" hidden="false" type="selectionEntry" id="8ea0-48a3-68f8-ee6a" targetId="4cb3-e6b6-4e82-23bf"/>
-    <entryLink import="true" name="Death Guard Daemon Prince with wings" hidden="false" type="selectionEntry" id="45d5-2e84-1f02-4fd4" targetId="f4d7-244d-16c4-f2f3"/>
+    <entryLink import="true" name="Daemon Prince of Nurgle" hidden="false" type="selectionEntry" id="8ea0-48a3-68f8-ee6a" targetId="4cb3-e6b6-4e82-23bf"/>
+    <entryLink import="true" name="Daemon Prince of Nurgle with Wings" hidden="false" type="selectionEntry" id="45d5-2e84-1f02-4fd4" targetId="f4d7-244d-16c4-f2f3"/>
     <entryLink import="true" name="Typhus" hidden="false" type="selectionEntry" id="17ec-2b07-8c4c-cf1" targetId="e6a4-7055-fd23-5123"/>
     <entryLink import="true" name="Lord of Virulence" hidden="false" type="selectionEntry" id="af3-b43-7cc8-c165" targetId="c15c-2b5a-dcab-7627"/>
     <entryLink import="true" name="Lord of Contagion" hidden="false" type="selectionEntry" id="10a1-5896-98da-8c7c" targetId="8700-3d3-efbb-ef8d"/>
@@ -24,7 +24,7 @@
     <entryLink import="true" name="Deathshroud Terminators" hidden="false" type="selectionEntry" id="76ab-697e-17ea-5edf" targetId="83e8-ebb7-785a-2115"/>
     <entryLink import="true" name="Death Guard Helbrute" hidden="false" type="selectionEntry" id="56ad-b86c-3c6a-ff59" targetId="2a2b-643e-860e-b524"/>
     <entryLink import="true" name="Blightlord Terminators" hidden="false" type="selectionEntry" id="c5ce-7c31-b5a6-1bd" targetId="5b4e-dcf1-5c6f-4d35"/>
-    <entryLink import="true" name="Death Guard Chaos Spawn" hidden="false" type="selectionEntry" id="3ec7-cb34-a128-da74" targetId="1d85-475f-5ab-9823"/>
+    <entryLink import="true" name="Chaos Spawn" hidden="false" type="selectionEntry" id="3ec7-cb34-a128-da74" targetId="1d85-475f-5ab-9823"/>
     <entryLink import="true" name="Myphitic Blight-haulers" hidden="false" type="selectionEntry" id="d49b-c44e-3421-4d3f" targetId="35b2-7490-1a7b-cd99"/>
     <entryLink import="true" name="Foetid Bloat-drone" hidden="false" type="selectionEntry" id="c935-4db0-a2f-1bd8" targetId="26d5-ec73-3517-f3f"/>
     <entryLink import="true" name="Plagueburst Crawler" hidden="false" type="selectionEntry" id="6ccf-b8b-fa83-8476" targetId="e58b-507a-937f-7abf"/>
@@ -1448,10 +1448,10 @@ No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</de
         <categoryLink targetId="2373-df61-e37e-7376" id="3821-454a-50a3-144f" primary="false" name="Poxwalkers"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="10 Poxwalkers" hidden="false" id="1e73-a144-a83e-d5af" defaultSelectionEntryId="7ba2-d301-9387-5d09">
+        <selectionEntryGroup name="10-20 Poxwalkers" hidden="false" id="1e73-a144-a83e-d5af" defaultSelectionEntryId="7ba2-d301-9387-5d09">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="f75-189-3133-9370" includeChildSelections="false"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="0baa-33de-87a7-a4f0" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="0baa-33de-87a7-a4f0" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Poxwalker" hidden="false" id="7ba2-d301-9387-5d09">
@@ -1500,7 +1500,8 @@ No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</de
         </profile>
         <profile name="Curse of the Walking Pox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6804-2acb-b422-7908">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a POXWALKER model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), after this unit has resolved its attacks, you can return one destroyed POXWALKER model to this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a POXWALKER model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), after this unit has resolved its attacks, you can return one destroyed POXWALKER model to this unit.
+While TYPHUS is leading this unit, enemy models destroyed as a result of TYPHUS&apos; Eater Plague ability count as enemy models destroyed by attacks made by a POXWALKER model in this unit for the purposes of this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1517,6 +1518,13 @@ No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</de
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e07c-d154-7b9d-ddfa" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="130" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="11" field="selections" scope="7c30-1e92-2faa-eb03" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Noxious Blightbringer" hidden="false" id="1ffc-27de-8aea-e7bb" publicationId="6bb4-8611-986f-58fa" page="31-32">
       <costs>
@@ -2500,16 +2508,21 @@ No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</de
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <modifiers>
+        <modifier type="set" value="180" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="4" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="e5c4-3db7-7178-66e0" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
         <modifier type="set" value="370" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="e5c4-3db7-7178-66e0" includeChildSelections="true"/>
+            <condition type="atLeast" value="6" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="ccdf-a173-4d0d-6996" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="4-9 Terminators and 1 Champion" hidden="false" id="7f86-be7c-2978-12cd" defaultSelectionEntryId="370d-1461-addb-db9d">
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ae01-1e0b-d672-e732"/>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ae01-1e0b-d672-e732"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="bad6-4664-75f2-8861"/>
           </constraints>
           <selectionEntries>
