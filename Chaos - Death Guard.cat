@@ -823,7 +823,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Blight Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efgh-abcd-1234-5678">
+        <profile name="Blight Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="da23-2ed2-8c55-cfc0">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Shooting phase, select one enemy unit within 30&quot; of and visible to this model. Until the end of the phase, each time a friendly DEATH GUARD model makes a ranged attack that targets that unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead).</characteristic>
           </characteristics>
@@ -2587,7 +2587,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <categoryLink targetId="ed0d-8e2a-225c-2340" id="9a17-5d59-53a1-c842" primary="false" name="Nurgle"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Predator twin lascannon" hidden="false" id="3d73-a94e-eb9f-9eb2" collective="false">
+        <selectionEntry type="upgrade" import="true" name="Predator twin lascannon" hidden="false" id="ed70-857a-d9ae-4b06" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1dd1-8d7a-b2ca-dc04-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dd1-8d7a-b2ca-dc04-max" includeChildSelections="false"/>
@@ -2612,7 +2612,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="1abe-11a7-5c8f-a186" collective="false">
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="c838-26cc-a4f9-26ff" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7559-a4d8-6c6d-15ee-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7559-a4d8-6c6d-15ee-max" includeChildSelections="false"/>
@@ -2636,7 +2636,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Sponson Weapons" id="d9da-b2e3-17ff-9146" hidden="false" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Sponson Weapons" id="b356-58c1-9d81-a427" hidden="false" defaultSelectionEntryId="none">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0e4-c1c6-5d30-fd97" includeChildSelections="false"/>
           </constraints>
@@ -2705,7 +2705,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle weapon" id="e1cf-fb2a-d31c-8f0d" hidden="false">
+        <selectionEntryGroup name="Pintle weapon" id="1bfc-e025-06b0-545c" hidden="false">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4be7-3bc0-9fb8-8c5e" includeChildSelections="false"/>
           </constraints>
@@ -2757,7 +2757,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Havoc launcher" id="b644-667a-81ed-bdc6" hidden="false" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Havoc launcher" id="98b0-2d9c-f591-920e" hidden="false" defaultSelectionEntryId="none">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb54-bf48-d22f-47df" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -2840,7 +2840,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         <categoryLink name="Nurgle" hidden="false" id="9876-5432-10ab-cdef" targetId="ed0d-8e2a-225c-2340" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Predator autocannon" hidden="false" id="5432-10ab-cdef-9876" collective="false">
+        <selectionEntry type="upgrade" import="true" name="Predator autocannon" hidden="false" id="546d-7c39-0697-9d6d" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432-max" includeChildSelections="false"/>
@@ -2866,7 +2866,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="10ab-cdef-9876-5432" collective="false">
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="a9c1-1479-207a-3762" collective="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876-max" includeChildSelections="false"/>
@@ -2890,7 +2890,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Sponson weapons" id="9876-5432-10ab-cdef" hidden="false" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Sponson weapons" id="aa0d-db44-3f3b-ca1f" hidden="false" defaultSelectionEntryId="none">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5432-10ab-cdef-9876" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -2937,7 +2937,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle weapon" id="10ab-cdef-9876-5432" hidden="false" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Pintle weapon" id="ee7a-b378-9479-7d1b" hidden="false" defaultSelectionEntryId="none">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9876-5432-10ab-cdef" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -2989,7 +2989,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Havoc launcher" id="5432-10ab-cdef-9876" hidden="false" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Havoc launcher" id="2b55-a2c9-cdf4-1efa" hidden="false" defaultSelectionEntryId="none">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ab-cdef-9876-5432" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -3131,7 +3131,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Replace reaper autocannon" id="def0-1234-5678-9abc" hidden="false" defaultSelectionEntryId="9abc-def0-1234-5678">
+        <selectionEntryGroup name="Replace reaper autocannon" id="7793-c0ca-f533-68c8" hidden="false" defaultSelectionEntryId="9abc-def0-1234-5678">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5678-9abc-def0-1234-max" includeChildSelections="false"/>
@@ -3205,7 +3205,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Replace twin heavy flamer" id="9abc-def0-1234-5678" hidden="false" defaultSelectionEntryId="1234-5678-9abc-def0">
+        <selectionEntryGroup name="Replace twin heavy flamer" id="6169-b941-12b0-9580" hidden="false" defaultSelectionEntryId="1234-5678-9abc-def0">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="def0-1234-5678-9abc-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="def0-1234-5678-9abc-max" includeChildSelections="false"/>
@@ -3278,7 +3278,7 @@ In addition, until you lose control of that objective marker, it has the Nurgle&
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Additional weapon" id="5678-9abc-def0-1234" hidden="false">
+        <selectionEntryGroup name="Additional weapon" id="4f0b-088a-2c67-e0bb" hidden="false">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9abc-def0-1234-5678-max" includeChildSelections="false"/>
           </constraints>
