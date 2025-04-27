@@ -1018,8 +1018,30 @@ No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</de
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Bubotic weapons" hidden="false" type="selectionEntry" id="e4b5-d140-81f8-4ae2" targetId="feef-df19-9c41-73b"/>
-                    <entryLink import="true" name="Heavy plague weapon" hidden="false" type="selectionEntry" id="dd9-4778-adda-2718" targetId="8916-89a2-12a-b2c"/>
                   </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="e93a-1997-3b3b-461b">
+                      <infoLinks>
+                        <infoLink name="Lethal Hits" id="fcc8-31db-2d8b-3f2d" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dd8-7d25-8b4f-24b1"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Power Fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6247-7b35-3ba8-df78">
+                          <characteristics>
+                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="528a-5dcd-6f12-c4df" name="Boltgun options" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a79-b180-bcbb-1f69">
                   <constraints>
@@ -1224,6 +1246,26 @@ No **^^Plague Legions**^^ models from your army can be your **^^Warlord**^^.</de
               <entryLinks>
                 <entryLink id="91da-9df6-99a6-67d5" name="Plague knives" hidden="false" collective="false" import="true" targetId="b024-c778-fecb-d386" type="selectionEntry"/>
               </entryLinks>
+            </selectionEntry>
+            <selectionEntry id="65d4-c23c-5acb-9056" name="Plague Marine w/ icon" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5069-088c-5534-a18c" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="17c1-fd9f-b0d1-7c37" name="Plague knives" hidden="false" collective="false" import="true" targetId="b024-c778-fecb-d386" type="selectionEntry"/>
+                <entryLink import="true" name="Plague boltgun" hidden="false" type="selectionEntry" id="d74f-e3e1-c682-5820" targetId="c812-9617-11b3-b804">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b38-5ffb-5f00-dd5a"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <profiles>
+                <profile name="Icon of Despair (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acfc-aff5-8a09-18e3">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within 6&quot; of the bearer, worsen the Leadership characteristic of models in that unit by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2039,7 +2081,7 @@ While TYPHUS is leading this unit, enemy models destroyed as a result of TYPHUS&
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
@@ -2079,6 +2121,13 @@ While TYPHUS is leading this unit, enemy models destroyed as a result of TYPHUS&
               </modifiers>
             </entryLink>
           </entryLinks>
+          <profiles>
+            <profile name="Icon of Despair (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db88-dd58-3003-3c70">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within 6&quot; of the bearer, worsen the Leadership characteristic of models in that unit by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2676,19 +2725,12 @@ While TYPHUS is leading this unit, enemy models destroyed as a result of TYPHUS&
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="59f7-a579-90fb-b52d"/>
               </constraints>
               <modifiers>
-                <modifier type="add" value="Max 1 blight launcher or autocannon per 5 models" field="error">
+                <modifier type="add" value="Max 1 {this} per 5 models" field="error">
                   <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition type="lessThan" value="10" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="71e1-f4eb-22c1-daa3" includeChildSelections="true"/>
-                            <condition type="greaterThan" value="1" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="546d-7cd9-e528-ba59" includeChildSelections="true"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition type="greaterThan" value="2" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="f14a-89c7-80bc-d095" includeChildSelections="true"/>
+                        <condition type="lessThan" value="10" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="8832-6a04-a678-9e7b" includeChildSelections="true"/>
+                        <condition type="greaterThan" value="1" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="3109-d5c0-8404-40fd" shared="true" id="3f4f-1f92-b39d-6a6c" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2731,19 +2773,12 @@ While TYPHUS is leading this unit, enemy models destroyed as a result of TYPHUS&
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="59f7-a579-90fb-b52d"/>
               </constraints>
               <modifiers>
-                <modifier type="add" value="Max 1 blight launcher or autocannon per 5 models" field="error">
+                <modifier type="add" value="Max 1 {this} per 5 models" field="error">
                   <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition type="lessThan" value="10" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="1bf8-f7fa-6357-212a" includeChildSelections="true"/>
-                            <condition type="greaterThan" value="1" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="855e-4252-0129-acc0" includeChildSelections="true"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition type="greaterThan" value="2" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="aa7e-4b31-713a-6732" shared="true" id="7a64-7628-265a-65d7" includeChildSelections="true"/>
+                        <condition type="lessThan" value="10" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="model" shared="true" id="e427-7dc0-9d65-4d64" includeChildSelections="true"/>
+                        <condition type="greaterThan" value="1" field="selections" scope="5b4e-dcf1-5c6f-4d35" childId="3520-73d6-afc2-35c2" shared="true" id="4dc5-ac6a-574a-bffb" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
