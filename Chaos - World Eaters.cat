@@ -3028,7 +3028,7 @@ Stratagem by 1CP.</characteristic>
         </profile>
         <profile id="c1b4-eec2-24ec-30dd" name="World Eaters Land Raider" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 WORLD EATERS INFANTRY models. Each EIGHTBOUND, EXALTED EIGHTBOUND and TERMINATOR model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 14 WORLD EATERS INFANTRY models. Each EIGHTBOUND, EXALTED EIGHTBOUND and TERMINATOR model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3062,17 +3062,20 @@ Stratagem by 1CP.</characteristic>
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Rapid Fire" id="a869-4c0d-65db-1baa" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="0850-43da-8b31-3161" name="Armoured tracks" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3083,8 +3086,8 @@ Stratagem by 1CP.</characteristic>
             <profile id="8efb-db7e-56ba-febc" name="Armoured tracks" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">9</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
@@ -3114,6 +3117,9 @@ Stratagem by 1CP.</characteristic>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b4d-97da-2f55-498f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b239-c132-8c0b-b5bf" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Rapid Fire" id="6693-4711-5ce0-1f7d" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+          </infoLinks>
         </entryLink>
         <entryLink id="4a8f-1b1a-1ad4-c547" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="5df1-0d33-8cea-a191" type="selectionEntry"/>
       </entryLinks>
@@ -3152,7 +3158,7 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -3226,9 +3232,9 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="b946-1c12-5192-5d2f" name="Annihilator" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="b946-1c12-5192-5d2f" name="Blood-hungry Annihilator" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Damage roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE target within 18&quot;, you can re-roll the Wound roll and you can re-roll the Damage roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3261,16 +3267,17 @@ Stratagem by 1CP.</characteristic>
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Rapid Fire 2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="c016-aff6-0de0-f3c3" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+            <infoLink name="Rapid Fire" id="972a-ae45-7ed8-1541" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -3299,6 +3306,9 @@ Stratagem by 1CP.</characteristic>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee7a-d84c-b551-f6d0" type="min"/>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a33-36d2-adb6-130b" type="max"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapid Fire" id="147d-6039-4dca-9551" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -3326,7 +3336,7 @@ Stratagem by 1CP.</characteristic>
         <entryLink id="7a7b-a3f9-68d5-a91b" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="5df1-0d33-8cea-a191" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -3342,8 +3352,8 @@ Stratagem by 1CP.</characteristic>
         <profile id="1c01-242b-864f-6a0f" name="Armoured tracks" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
@@ -3361,11 +3371,11 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Rapid Fire 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3382,7 +3392,7 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
@@ -3409,9 +3419,9 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="307f-af7c-e7b6-a4b0" name="Destructor" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="307f-af7c-e7b6-a4b0" name="Punishing Suppression" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks (excluding MONSTERS and VEHICLES). Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3444,11 +3454,11 @@ Stratagem by 1CP.</characteristic>
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 6</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3482,6 +3492,9 @@ Stratagem by 1CP.</characteristic>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c00-426f-181e-ea40" type="min"/>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb78-82dd-730e-c879" type="max"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapid Fire" id="4528-9919-e46a-348d" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -3509,7 +3522,7 @@ Stratagem by 1CP.</characteristic>
         <entryLink id="0396-585a-5830-0f21" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="5df1-0d33-8cea-a191" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -3523,7 +3536,7 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="15d4-f4a5-dc81-c5ca" name="World Eaters Defiler" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
@@ -3539,6 +3552,13 @@ Stratagem by 1CP.</characteristic>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3e1-6c76-c87a-b540">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fdc3-58a8-25da-a517" name="Unleash Wrath" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your opponent&apos;s Movement phase, you can select one enemy unit that was set up on the battlefield within 12&quot; of this model; this model can then either:
+. Shoot at that unit, but only if it is an eligible target.
+· Declare a charge against that unit (note that even if this charge is successful, this model does not receive any Charge bonus this turn).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3573,16 +3593,17 @@ Stratagem by 1CP.</characteristic>
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Rapid Fire 3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="777e-ee8a-44a9-4972" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+            <infoLink name="Rapid Fire" id="384f-acaf-a293-5dc4" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -3597,7 +3618,7 @@ Stratagem by 1CP.</characteristic>
             <profile id="1ca4-387f-a06e-b111" name="Defiler claws" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">16</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
@@ -3624,17 +3645,18 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Sustained Hits 1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Sustained Hits 1, Rapid Fire 4</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="261f-2793-33dd-803e" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
                 <infoLink id="1625-9aa6-eadd-449a" name="Devastating Wounds" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                <infoLink name="Rapid Fire" id="9c4d-b059-9a90-7c40" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -3642,8 +3664,16 @@ Stratagem by 1CP.</characteristic>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="7d6b-ec76-a563-c2ca" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="caa8-634e-b7e4-a286" type="selectionEntry"/>
-            <entryLink id="364b-4c3b-9c46-7d2a" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="0fc2-382a-b387-9634" type="selectionEntry"/>
+            <entryLink id="7d6b-ec76-a563-c2ca" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="caa8-634e-b7e4-a286" type="selectionEntry">
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="5c29-84a9-a05f-9b44" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink id="364b-4c3b-9c46-7d2a" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="0fc2-382a-b387-9634" type="selectionEntry">
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="5f0b-07e7-17e1-865f" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="624c-9f4c-72e5-0988" name="Replace twin heavy flamer" hidden="false" collective="false" import="true" defaultSelectionEntryId="73c1-d5a3-2532-0890">
@@ -3712,7 +3742,11 @@ Stratagem by 1CP.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="190"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81e1-b212-69c1-308f" name="World Eaters Forgefiend" hidden="false" collective="false" import="true" type="model">
@@ -3732,7 +3766,7 @@ Stratagem by 1CP.</characteristic>
         </profile>
         <profile id="d4f7-face-042b-a10d" name="Furious Onslaught" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has finished making its attacks, if one or more of those attacks scored a hit against an enemy INFANTRY unit, that INFANTRY unit must take a Battle-shock test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets the closest eligible target within 18&quot;, you can re-roll the Hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="a5f1-9bbd-0363-9733" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3774,6 +3808,9 @@ Stratagem by 1CP.</characteristic>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bacc-9d67-9f59-8899" type="min"/>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e30-fa9b-bec0-c81e" type="max"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapid Fire" id="8511-5273-034a-634f" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -3787,6 +3824,9 @@ Stratagem by 1CP.</characteristic>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc69-6ba1-2082-f01d" type="min"/>
                     <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a62a-cb7a-8b25-0bc4" type="max"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapid Fire" id="eee5-accc-3b78-2586" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -3812,7 +3852,7 @@ Stratagem by 1CP.</characteristic>
                     <profile id="ed63-295b-eaeb-eae2" name="Forgefiend claws" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
@@ -3832,6 +3872,9 @@ Stratagem by 1CP.</characteristic>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0217-a96f-50f4-28b3" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="131e-93f6-9520-c494" type="max"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Rapid Fire" id="e65d-52b6-8044-9bf9" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                  </infoLinks>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -3843,7 +3886,7 @@ Stratagem by 1CP.</characteristic>
                 <profile id="920d-8acd-13f5-48af" name="Forgefiend jaws" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
@@ -3860,7 +3903,11 @@ Stratagem by 1CP.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a343-07e9-e8f9-67f2" name="Hades autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3869,11 +3916,11 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3887,11 +3934,11 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Rapid Fire 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4263,9 +4310,9 @@ Stratagem by 1CP.</characteristic>
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba59-afb9-2b3a-b294" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3ebe-135b-8cb0-76f5" name="Swooping Predator" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="3ebe-135b-8cb0-76f5" name="Airborne Predator" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6: for each 4+, that enemy unit suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="a9c5-98ef-70a6-d536" name="World Eaters Heldrake" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -4315,7 +4362,7 @@ Stratagem by 1CP.</characteristic>
             <profile id="22d7-4caa-1838-1c3f" name="Heldrake claws" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
@@ -4389,12 +4436,17 @@ Stratagem by 1CP.</characteristic>
         </profile>
         <profile id="8084-c2ca-004e-c463" name="The Scent of Blood" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you make a Charge roll for this model, if one or more of the targets of that charge are below their Starting Strength, add 2 to that roll. Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model declares a charge that targets one or more units below Starting Strength, add 1 to the Charge roll. If one or more of the targets of that charge are Below Half-strength, add 2 to the Charge roll instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="eb5d-a656-b952-25c4" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="95d3-62ce-f11d-cfcd" name="Savage Exaltation" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-strength, add 1 to the Wound roll as well.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4427,7 +4479,7 @@ Stratagem by 1CP.</characteristic>
             <profile id="e721-bc30-a7c5-cce9" name="Maulerfiend fists" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -4454,17 +4506,20 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Rapid Fire 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="9b80-914a-3191-2657" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry id="e3ea-0c3d-1c03-ac0a" name="Lasher tendrils" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4488,7 +4543,11 @@ Stratagem by 1CP.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e849-ce40-ee43-7623" name="World Eaters Rhino" hidden="false" collective="false" import="true" type="model">
@@ -4508,7 +4567,7 @@ Stratagem by 1CP.</characteristic>
         </profile>
         <profile id="d170-6fa7-f88c-f888" name="Self-repair" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, this model regains 1 lost wound.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 9&quot; of this model, any units embarked within it can disembark.</characteristic>
           </characteristics>
         </profile>
         <profile id="7526-3b9f-33ca-b410" name="World Eaters Rhino" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -4563,7 +4622,11 @@ Stratagem by 1CP.</characteristic>
         <entryLink id="e245-00af-d40f-697e" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="5df1-0d33-8cea-a191" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edde-57bf-bccc-d8b2" name="World Eaters Chaos Spawn" hidden="false" collective="false" import="true" type="unit">
@@ -4658,7 +4721,7 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="eb16-9af1-520b-80f0" name="Khorne Lord of Skulls" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">24</characteristic>
@@ -4666,9 +4729,9 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">8</characteristic>
           </characteristics>
         </profile>
-        <profile id="1273-7c5a-b059-a2ba" name="Blessed Slaughter" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="1273-7c5a-b059-a2ba" name="Super-heavy War Engine" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you make a Blessings of Khorne roll, for each enemy unit destroyed by this model in the previous battle round, you can add 1 to or subtract 1 from one of the dice rolled (each dice can only be modified in this way once, and a dice cannot be modified below 1 or above 6).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4&quot; or less in height. When doing so it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4&quot; in height, but if it does, after it has moved, roll one D6: on a roll of 1, this model is Battle-shocked.</characteristic>
           </characteristics>
         </profile>
         <profile id="e2d3-e68e-870e-1355" name="Damaged: 1-8 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4679,6 +4742,11 @@ Stratagem by 1CP.</characteristic>
         <profile name="Invulnerable Save" hidden="false" id="4c1c-e0c4-129a-6b90" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7152-1fd2-8161-1284" name="Idol of Blessed Blood" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle round, if this model is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4711,7 +4779,7 @@ Stratagem by 1CP.</characteristic>
             <profile id="d303-1eb7-b9d0-af6b" name="➤ Great cleaver of Khorne - strike" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">16</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-4</characteristic>
@@ -4722,7 +4790,7 @@ Stratagem by 1CP.</characteristic>
             <profile id="baf1-a42c-aa52-ac27" name="➤ Great cleaver of Khorne - sweep" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">15</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">18</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -4749,16 +4817,17 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Rapid Fire 3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="2790-d2fe-3d2e-72ba" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                <infoLink name="Rapid Fire" id="9ebe-28ff-24d1-a71e" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4770,16 +4839,17 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Rapid Fire 3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="6e0e-bfec-be32-ec0a" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                <infoLink name="Rapid Fire" id="0593-a681-43ff-6a41" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4791,16 +4861,17 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Rapid Fire 4</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="95f5-7c0d-80ff-35c5" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                <infoLink name="Rapid Fire" id="c34f-a535-4ca5-bb50" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4820,16 +4891,17 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">12</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Rapid Fire 6</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="e46d-c7d4-5be6-ff19" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+                <infoLink name="Rapid Fire" id="3c0d-2923-8490-adda" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4841,23 +4913,30 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="38d1-07d9-4e57-cc11" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="450"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="505"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84c8-b821-877d-72e6" name="Detachment Choice" hidden="false" collective="false" import="true" type="upgrade">
