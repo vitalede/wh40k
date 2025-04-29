@@ -6426,7 +6426,7 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d2f3-a8b7-c9e3-15a4" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -6453,7 +6453,7 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8a7b-42e1-d6f3-91e7" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -6530,7 +6530,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f713-d89c-a512-e7a9" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Favoured of Khorne" hidden="false" id="f2a4-3578-8c1d-91d0">
@@ -6553,7 +6557,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e4a2-d98c-a7f4-b15e" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Battle-Lust" hidden="false" id="c4db-ae15-6d82-e7f9">
@@ -6576,7 +6584,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d97c-c12f-a51e-e824" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Chosen of the Blood God" hidden="false" id="9a12-b345-c678-d901">
@@ -6599,7 +6611,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b134-d567-e890-f123" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Butcher Lord" hidden="false" id="c245-e678-f901-2345">
@@ -6622,7 +6638,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e467-0890-1234-5678" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Brazen Form" hidden="false" id="f578-1901-2345-6789">
@@ -6645,7 +6665,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1790-3b23-4567-8901" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Strategic Slaughter" hidden="false" id="2801-4c34-5678-9012">
@@ -6668,7 +6692,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4a23-6e56-7890-1234" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Malicious Vigour" hidden="false" id="5b34-7f67-8901-2345">
@@ -6691,7 +6719,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7e67-a290-1b34-5678" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Killing Clarity" hidden="false" id="8f78-b3a1-2c45-6789">
@@ -6714,7 +6746,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a190-d5c3-4e67-8901" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Frenzied Focus" hidden="false" id="b2a1-e6d4-5f78-9012">
@@ -6737,7 +6773,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d4c3-08f6-7190-1234" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Violent Demise" hidden="false" id="e5d4-1907-8201-2345">
@@ -6760,7 +6800,11 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="07f6-3b29-0423-4567" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Murderous Onslaught" hidden="false" id="1807-4a30-5b34-5678">
@@ -6783,7 +6827,7 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c3b3-e4d5-f647-8901" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="5"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -6810,7 +6854,7 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6d53-9080-a191-2345" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -6836,6 +6880,13 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Infernal Infusion" hidden="false" id="9392-982d-1142-c352">
           <modifiers>
@@ -6857,7 +6908,7 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8ef2-2188-8050-11ee" includeChildSelections="true"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
