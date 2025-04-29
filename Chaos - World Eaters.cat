@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df9a-59b2-f464-59ad" name="Chaos - World Eaters" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="df9a-59b2-f464-59ad" name="Chaos - World Eaters" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="02a0-fa96-6f9b-354f" name="Wrathful Presence">
       <characteristicTypes>
@@ -474,7 +474,7 @@
         </profile>
         <profile id="0d65-4434-1179-25f7" name="Wrathful Presence" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle round, select one Wrathful Presence ability. Until the start of the next battle round, this model has that ability. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle round, select one Wrathful Presence ability. Until the start of the next battle round, this model has that ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="6bc9-7ca7-a2f6-aa83" name="The Blood God&apos;s Favour" hidden="false" typeId="02a0-fa96-6f9b-354f" typeName="Wrathful Presence">
@@ -1340,9 +1340,9 @@ Stratagem by 1CP.</characteristic>
     </selectionEntry>
     <selectionEntry id="f909-00c7-8ba4-018a" name="Khorne Berserkers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="180">
+        <modifier type="set" field="51b2-306e-1021-d207" value="360">
           <conditions>
-            <condition field="selections" scope="f909-00c7-8ba4-018a" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="selections" scope="f909-00c7-8ba4-018a" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1352,7 +1352,17 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="98dc-e20d-8ee7-882c" name="Blood Surge" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Blood Surge move while it is Battle-shocked.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit [excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Khorne Berserker" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7f42-27e5-d197-1b90">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1375,18 +1385,6 @@ Stratagem by 1CP.</characteristic>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="474a-d729-b9bd-57a1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ae5-7d1d-fa65-170a" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="7f42-27e5-d197-1b90" name="Khorne Berserker" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <selectionEntryGroups>
             <selectionEntryGroup id="f645-1e8a-60f6-514e" name="Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b18-d954-c7a9-a1a7">
               <constraints>
@@ -1408,16 +1406,16 @@ Stratagem by 1CP.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3e13-aed4-8ef7-5eec" name="4 - 9 Khorne Berserkers" hidden="false" collective="false" import="true" defaultSelectionEntryId="b568-8a23-be6f-a14d">
+        <selectionEntryGroup id="3e13-aed4-8ef7-5eec" name="9 - 19 Khorne Berserkers" hidden="false" collective="false" import="true" defaultSelectionEntryId="b568-8a23-be6f-a14d">
           <constraints>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaec-a01c-12f6-2a09" type="min"/>
-            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f5-82c9-ea75-7533" type="max"/>
+            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaec-a01c-12f6-2a09" type="min"/>
+            <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f5-82c9-ea75-7533" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b568-8a23-be6f-a14d" name="Khorne Berserker" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a73-d7f9-8179-db60" type="max"/>
-                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="168e-b157-a94d-739e" includeChildSelections="false"/>
+                <constraint field="selections" scope="parent" value="19" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a73-d7f9-8179-db60" type="max"/>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="168e-b157-a94d-739e" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
                 <entryLink id="2b9d-2f55-fe06-c761" name="Berserker chainblade" hidden="false" collective="false" import="true" targetId="44b0-1947-ea4a-3005" type="selectionEntry"/>
@@ -1442,11 +1440,21 @@ Stratagem by 1CP.</characteristic>
               <modifiers>
                 <modifier type="add" field="error" value="Max 2 {this} per 5 models">
                   <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="lessThan" value="10" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                        <condition type="greaterThan" value="2" field="selections" scope="f909-00c7-8ba4-018a" childId="f2e9-2470-ad96-9ae0" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="10" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="greaterThan" value="2" field="selections" scope="f909-00c7-8ba4-018a" childId="f2e9-2470-ad96-9ae0" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="20" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="greaterThan" value="4" field="selections" scope="f909-00c7-8ba4-018a" childId="f2e9-2470-ad96-9ae0" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -1482,7 +1490,7 @@ Stratagem by 1CP.</characteristic>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7608-826b-4b1a-b7f4" type="max"/>
+                <constraint field="selections" scope="parent" value="8" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7608-826b-4b1a-b7f4" type="max"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup id="2f2f-c80d-04cf-0f01" name="Pistol" hidden="false" collective="false" import="true">
@@ -1497,7 +1505,7 @@ Stratagem by 1CP.</characteristic>
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -1541,7 +1549,7 @@ Stratagem by 1CP.</characteristic>
                             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                             <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
@@ -1598,7 +1606,11 @@ Stratagem by 1CP.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="44b0-1947-ea4a-3005" name="Berserker chainblade" hidden="false" collective="true" import="true" type="upgrade">
@@ -1612,7 +1624,7 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
@@ -1632,7 +1644,7 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -1653,7 +1665,7 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -1664,7 +1676,7 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
@@ -1719,13 +1731,10 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="c8e8-33da-433f-65c5" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
@@ -1737,24 +1746,17 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="355d-5150-1982-17b2" name="Icon of Khorne" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you make a Blessings of Khorne roll, if the bearer’s unit is within range of an objective marker you control, you can re-roll one of the dice.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer&apos;s unit destroys an enemy unit, you gain 1 Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
-      <modifiers>
-        <modifier type="set" value="2" field="99c7-e079-c6ef-19b6">
-          <conditions>
-            <condition type="atLeast" value="20" field="selections" scope="parent" childId="model" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry id="45f6-8429-a1d9-2a51" name="World Eaters Terminator Squad" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="360">
+        <modifier type="set" field="51b2-306e-1021-d207" value="370">
           <conditions>
             <condition field="selections" scope="45f6-8429-a1d9-2a51" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -1826,7 +1828,7 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="4a04-656d-10de-c271" name="World Eaters Terminator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
@@ -1841,7 +1843,7 @@ Stratagem by 1CP.</characteristic>
         </profile>
         <profile id="cabc-c518-5262-d65e" name="Bloody Fury" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack that targets the closest enemy unit, you can re-roll the Hit roll. Each time this unit declares a charge that targets the closest eligible enemy unit, you can re-roll the Charge roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2187,21 +2189,22 @@ Stratagem by 1CP.</characteristic>
                   <selectionEntries>
                     <selectionEntry id="f0b2-e942-6896-6acf" name="Reaper autocannon" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
-                        <profile id="2db4-7c20-3e1d-77ff" name="Reaper autocannon" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                        <profile name="Reaper Autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="49a5-5d9e-fac5-23fd">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Sustained Hits 1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Rapid Fire 2, Sustained Hits 1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink id="388c-2f8a-aafe-4190" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-                        <infoLink id="6e51-ddf9-54e3-8f16" name="Devastating Wounds" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                        <infoLink name="Devastating Wounds" id="1f57-4dd3-9d66-6ff8" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                        <infoLink name="Rapid Fire" id="00df-eacf-7c4e-3e79" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+                        <infoLink name="Sustained Hits" id="b966-9718-26ee-8017" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -2221,12 +2224,16 @@ Stratagem by 1CP.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="185"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f81-4538-a414-251e" name="Jakhals" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="130">
+        <modifier type="set" field="51b2-306e-1021-d207" value="140">
           <conditions>
             <condition field="selections" scope="6f81-4538-a414-251e" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -2238,12 +2245,12 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="d6c1-e4e6-d70f-7ee7" name="Objective Ravaged" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent&apos;s Level of Control over that objective marker is greater than yours at the end of a phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="f75d-6910-e063-7e96" name="Jakhal" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
@@ -2412,18 +2419,15 @@ Stratagem by 1CP.</characteristic>
                         <profile id="c75c-6f52-8160-7262" name="Mauler chainblade" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                           <characteristics>
                             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
                             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
-                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="b3f7-fb0b-e14d-6079" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-                      </infoLinks>
                       <costs>
                         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                       </costs>
@@ -2561,7 +2565,7 @@ Stratagem by 1CP.</characteristic>
                     <profile id="ab0e-4569-3ddc-3e81" name="Skullsmasher" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
@@ -2570,9 +2574,6 @@ Stratagem by 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="3a05-e377-b632-8ab5" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                   </costs>
@@ -2582,32 +2583,29 @@ Stratagem by 1CP.</characteristic>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="307d-0ce0-fcf0-9100" name="Dishonoured w/ chainblades" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="307d-0ce0-fcf0-9100" name="Dishonoured w/ Paired Manglers" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3f3-8fc9-54ea-16d1" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="88ee-2f6b-0b00-0852" name="Dishonoured chainblades" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="88ee-2f6b-0b00-0852" name="Paired Manglers" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d27-018e-581c-d017" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc97-1c89-f5ba-12f7" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="f17b-1665-be9a-b2c6" name="Dishonoured chainblades" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile id="f17b-1665-be9a-b2c6" name="Paired Manglers" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
                         <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="8341-2696-b6e0-a670" name="Sustained Hits" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
                   </costs>
@@ -2638,7 +2636,7 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
@@ -2659,7 +2657,7 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-VEHICLE 3+</characteristic>
@@ -2680,7 +2678,7 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
@@ -2698,7 +2696,7 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
@@ -2715,11 +2713,11 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3129,11 +3127,11 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Twin-linked</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Twin-linked, Rapid Fire 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3175,11 +3173,11 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3911,7 +3909,7 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="2085-50f0-f7e1-0065" name="World Eaters Helbrute" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">9&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
@@ -3921,12 +3919,12 @@ Stratagem by 1CP.</characteristic>
         </profile>
         <profile id="2f94-5892-1327-89f6" name="Frenzy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, and in the Fight phase, each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot or fight, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).</characteristic>
           </characteristics>
         </profile>
-        <profile id="95b1-3a4a-5a80-8bd5" name="Helbrute fists" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="95b1-3a4a-5a80-8bd5" name="Devoted to Destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is equipped with two Helbrute fists, those weapons have the [TWIN-LINKED] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3960,16 +3958,17 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Rapid Fire 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="4f19-25d4-dad1-7f0c" name="Melta" hidden="false" targetId="7cdb-fb99-44a9-8849" type="rule"/>
+                <infoLink name="Rapid Fire" id="9ba9-24c3-4ca3-a4ab" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -3984,16 +3983,17 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Rapid Fire 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Twin-linked" hidden="false" type="rule" id="c85a-85aa-2f3b-4362" targetId="cf93-ad4d-2f08-a79d"/>
+                <infoLink name="Rapid Fire" id="635d-13af-e42e-782a" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry id="1f9f-ed59-6c0c-64e0" name="Helbrute fist with heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -4030,23 +4030,32 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Rapid Fire D3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Blast" hidden="false" type="rule" id="9a18-2923-c9cd-4c4e" targetId="6c1f-1cf7-ff25-c99e"/>
                 <infoLink name="Hazardous" hidden="false" type="rule" id="edad-e068-857d-ed0e" targetId="8367-374c-f87-c627"/>
+                <infoLink name="Rapid Fire" id="0787-1675-ced0-ac20" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="0ac2-1916-4c67-03d0" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="caa8-634e-b7e4-a286" type="selectionEntry"/>
-            <entryLink id="097b-a120-6146-3e0c" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="0fc2-382a-b387-9634" type="selectionEntry"/>
+            <entryLink id="0ac2-1916-4c67-03d0" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="caa8-634e-b7e4-a286" type="selectionEntry">
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="77b1-1731-6575-188c" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink id="097b-a120-6146-3e0c" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="0fc2-382a-b387-9634" type="selectionEntry">
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="dd97-8021-c513-b92e" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+              </infoLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8049-1102-1ce1-98e7" name="Replace missile launcher" hidden="false" collective="false" import="true" defaultSelectionEntryId="4b78-28cf-7dee-c426">
@@ -4089,27 +4098,28 @@ Stratagem by 1CP.</characteristic>
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Rapid Fire 3</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9296-f12a-ad7f-30c4" name="➤ Missile launcher - krak" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="c367-ed54-79e9-9c28" name="Blast" hidden="false" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+                <infoLink name="Rapid Fire" id="5be5-9cdb-04c5-686a" hidden="false" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -4120,7 +4130,7 @@ Stratagem by 1CP.</characteristic>
                 <profile id="fc6f-24af-e553-0c3d" name="Helbrute hammer" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
@@ -4138,7 +4148,7 @@ Stratagem by 1CP.</characteristic>
                 <profile id="b7a2-e159-fe07-db5d" name="Power scourge" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
@@ -4155,7 +4165,11 @@ Stratagem by 1CP.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="70b-bdff-5001-4b21">
@@ -4167,7 +4181,7 @@ Stratagem by 1CP.</characteristic>
             <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6abd-b956-2a51-241">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
@@ -4185,11 +4199,11 @@ Stratagem by 1CP.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Rapid Fire 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4209,7 +4223,7 @@ Stratagem by 1CP.</characteristic>
         <profile id="9357-93a0-fa7d-ddbc" name="Helbrute fist" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -4559,7 +4573,7 @@ Stratagem by 1CP.</characteristic>
       <profiles>
         <profile id="0eca-b550-8763-a4f9" name="World Eaters Chaos Spawn" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
@@ -4567,9 +4581,9 @@ Stratagem by 1CP.</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="912b-28b7-8f46-10a6" name="Regenerating Monstrosities" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="912b-28b7-8f46-10a6" name="To Slake its Rage" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of each player’s Command phase, one model in this unit regains up to D3 lost wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4581,6 +4595,11 @@ Stratagem by 1CP.</characteristic>
         </infoLink>
         <infoLink id="f736-c01e-b14c-12e6" name="Relentless Rage" hidden="false" targetId="5fc9-9ee8-8657-65b4" type="rule"/>
         <infoLink name="Blessings of Khorne" hidden="false" type="rule" id="5e00-9791-238d-7a3d" targetId="e68b-b42f-6f7c-4670"/>
+        <infoLink name="Scouts" id="4836-face-2d55-a08f" hidden="false" targetId="ada6-bac1-ffe0-d6f7" type="rule">
+          <modifiers>
+            <modifier type="append" value="8&quot;" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0358-7c0c-167a-9084" name="Faction: World Eaters" hidden="false" targetId="bd1d-c1a5-6ca2-c791" primary="false"/>
@@ -4605,9 +4624,9 @@ Stratagem by 1CP.</characteristic>
                 <profile id="afd7-2e16-7ac6-ef7d" name="Hideous Mutations" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6+2</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6+4</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
@@ -4625,7 +4644,7 @@ Stratagem by 1CP.</characteristic>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
