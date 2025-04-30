@@ -857,11 +857,7 @@ Example: Ash makes a Blessings of Khorne roll, getting the following: 1, 2, 2, 2
         </profile>
         <profile name="Direct the Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="296e-c493-2a44-6310">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, one model
-from your army with this ability can use it when a friendly
-WORLD EATERS unit within 12&quot; of that model is targeted with a
-Stratagem. If it does, reduce the CP cost of that usage of that
-Stratagem by 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, one model from your army with this ability can use it when a friendly WORLD EATERS unit within 12&quot; of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1522,12 +1518,12 @@ Stratagem by 1CP.</characteristic>
                   <entryLinks>
                     <entryLink id="0975-acac-021e-a569" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="47e1-9e86-8a80-66e1" type="selectionEntry">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="f909-00c7-8ba4-018a" shared="false" id="c5a2-0842-57e9-1ab9" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <constraint type="max" value="2" field="selections" scope="f909-00c7-8ba4-018a" shared="false" id="c5a2-0842-57e9-1ab9" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </constraints>
                       <modifiers>
-                        <modifier type="increment" value="1" field="c5a2-0842-57e9-1ab9">
+                        <modifier type="increment" value="2" field="c5a2-0842-57e9-1ab9">
                           <conditions>
-                            <condition type="atLeast" value="10" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                            <condition type="atLeast" value="20" field="selections" scope="f909-00c7-8ba4-018a" childId="model" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1560,14 +1556,14 @@ Stratagem by 1CP.</characteristic>
                     </selectionEntry>
                     <selectionEntry id="f03b-722a-282b-078e" name="Khornate eviscerator" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
-                        <modifier type="increment" field="32a9-fc67-4af9-1c36" value="1">
+                        <modifier type="increment" field="32a9-fc67-4af9-1c36" value="2">
                           <conditions>
-                            <condition field="selections" scope="f909-00c7-8ba4-018a" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
+                            <condition field="selections" scope="f909-00c7-8ba4-018a" value="20" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
                           </conditions>
                         </modifier>
                       </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="f909-00c7-8ba4-018a" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32a9-fc67-4af9-1c36" type="max"/>
+                        <constraint field="selections" scope="f909-00c7-8ba4-018a" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32a9-fc67-4af9-1c36" type="max"/>
                       </constraints>
                       <profiles>
                         <profile id="49c4-6969-cc96-b1fc" name="Khornate eviscerator" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
@@ -2236,6 +2232,16 @@ Stratagem by 1CP.</characteristic>
             <condition field="selections" scope="6f81-4538-a414-251e" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="23ef-4567-8901-2345" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="0ce0-ebde-7eb7-c6ac">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="23ef-4567-8901-2345" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ce0-ebde-7eb7-c6ac" type="max"/>
@@ -2268,8 +2274,7 @@ Stratagem by 1CP.</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="633a-b60b-94f4-4d8e" name="Faction: World Eaters" hidden="false" targetId="bd1d-c1a5-6ca2-c791" primary="false"/>
-        <categoryLink id="0d3e-d546-127d-8199" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink id="14ab-2d1d-2cfc-b673" name="Battleline" hidden="false" targetId="e338-111e-d0c6-b687" primary="true"/>
+        <categoryLink id="0d3e-d546-127d-8199" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
         <categoryLink id="0b98-f991-10aa-40e0" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="6041-ca6f-ebe1-ebfa" name="Khorne" hidden="false" targetId="4bd-5ee0-f179-2fc5" primary="false"/>
         <categoryLink id="01d2-17a1-e4e9-ef55" name="Jakhals" hidden="false" targetId="f05b-e25f-cda0-4669" primary="false"/>
@@ -4952,7 +4957,7 @@ Stratagem by 1CP.</characteristic>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce2-39c9-cf7b-2863" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Berzerker Warband" hidden="false" id="7d93-f63c-8dbb-f331">
+            <selectionEntry type="upgrade" import="true" name="Berzerker Warband (New)" hidden="false" id="7d93-f63c-8dbb-f331">
               <rules>
                 <rule name="Relentless Rage" id="1234-5678-9abc-def0" hidden="false">
                   <description>Each time a **^^World Eaters^^** unit from your army makes a Charge move, until the end of the turn, add 1 to the Attacks characteristic and add 2 to the Strength characteristic of melee weapons equipped by models in that unit.</description>
@@ -5031,7 +5036,7 @@ Stratagem by 1CP.</characteristic>
             <selectionEntry type="upgrade" import="true" name="Goretrack Onslaught" hidden="false" id="2918-5b41-6c45-6789">
               <rules>
                 <rule name="Mobile Slaughter" id="a1op-2345-6789-0123" hidden="false">
-                  <description>Each time a WORLD EATERS unit from your army disembarks from a TRANSPORT model, add 2 to the Attacks characteristic of melee weapons equipped by models in that WORLD EATERS unit until the end of the turn.</description>
+                  <description>Each time a WORLD EATERS unit from your army disembarks from a TRANSPORT, until the end of the turn, add 1 to Charge rolls made for that unit and that unit&apos;s melee weapons have the [LANCE] ability.</description>
                 </rule>
               </rules>
               <categoryLinks>
@@ -5476,6 +5481,18 @@ Stratagem by 1CP.</characteristic>
         <infoLink name="Relentless Rage" id="29b5-527c-a519-3d81" hidden="false" targetId="5fc9-9ee8-8657-65b4" type="rule"/>
         <infoLink name="Blessings of Khorne" id="6730-5691-c074-77d1" hidden="false" type="rule" targetId="e68b-b42f-6f7c-4670"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="23ef-4567-8901-2345" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="147d-a351-4d48-c2f7">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="23ef-4567-8901-2345" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chainblade" hidden="false" id="81d1-50cc-2825-7475">
       <profiles>
@@ -6780,7 +6797,7 @@ until the end of the battle, this model has the Deep Strike and Scouts 6&quot; a
             <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Violent Demise" hidden="false" id="e5d4-1907-8201-2345">
+        <selectionEntry type="upgrade" import="true" name="Violent Demise" hidden="false" id="e5d4-1907-8201-2345" publicationId="8db3-575d-91b-47f8">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>

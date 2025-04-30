@@ -38,7 +38,6 @@
     <entryLink import="true" name="Show/Hide Options" hidden="false" type="selectionEntry" id="6086-9ba7-e934-39eb" targetId="e8ef-836a-a9d1-901d">
       <entryLinks>
         <entryLink import="true" name="Show Chaos Knights" hidden="false" type="selectionEntry" id="554c-41fb-92b2-6c21" targetId="aeb4-96de-7401-eaa3"/>
-        <entryLink import="true" name="Show Nurgle Daemons" hidden="false" type="selectionEntry" id="3838-64a-1952-1ed4" targetId="f486-5e38-994c-15ec"/>
         <entryLink import="true" name="Show Titans" hidden="false" id="156b-2e50-2027-2f5a" type="selectionEntry" targetId="f26b-79db-80e0-3a3b"/>
       </entryLinks>
     </entryLink>
@@ -1573,6 +1572,11 @@ While TYPHUS is leading this unit, enemy models destroyed as a result of TYPHUS&
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="f66a-510a-ca2a-7fa0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="e07c-d154-7b9d-ddfa">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="force" childId="f66a-510a-ca2a-7fa0" shared="true" includeChildSelections="true"/>
           </conditions>
